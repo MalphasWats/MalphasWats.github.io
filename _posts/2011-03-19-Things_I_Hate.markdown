@@ -3,8 +3,6 @@ layout: post
 title: Things I Hate
 ---
 
-#{{ page.title }}
-
 [Let Me Pay](http://log.maniacalrage.net/post/3948497854/please-let-me-pay)
 
 I really hate it when people say "Stop complaining, it's a free service!".

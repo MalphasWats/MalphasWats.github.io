@@ -3,8 +3,6 @@ layout: post
 title: Deploying Flask to Apache
 ---
 
-#{{ page.title }}
-
 I'm still slowly plugging away with my new Python + flask static blogging system. I thought I'd share the details of my most recent exploration.
 
 Out of the box, the flask framework comes with its own development server, so far I've only used this but eventually I would be deploying it onto my main server running apache. I decided I needed to make sure I could get this working without too much trouble so I made a simple Hello World application along the lines of the main [flask tutorial](http://flask.pocoo.org/docs/quickstart/#quickstart).

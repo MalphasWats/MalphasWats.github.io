@@ -3,8 +3,6 @@ layout: post
 title: New Design for 2013
 ---
 
-#{{ page.title }}
-
 My website has a new design this week. I liked the simplicity of my old design, but I felt a little constrained by it. The width made me feel pressured to only post long articles, I'd like to be able to post twitter-style updates from time-to-time and I felt that they would look lost. The new design gives everything its own little box and I think this gives me more flexibility. My intention is to make a few small tweaks to [my blogging engine](https://github.com/MalphasWats/electrostatic) over the next week or so to facilitate different kinds of posts.
 
 The design is not so much inspired by [my GitHub profile page](https://github.com/MalphasWats) as it is a complete rip-off. I really like the layout, the sidebar with the avatar communicates the ownership of the writing here. I hope they don't mind too much. There are still a few little bugs to work out, so things might look a bit wonky whilst I work through them all. I'm not sure how the monospace font comes across, but I spend most of my free time looking at code, so again, I think it communicates a little of my personality.

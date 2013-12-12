@@ -3,8 +3,6 @@ layout: post
 title: New Project: pyDimension
 ---
 
-#{{ page.title }}
-
 As I mentioned previously, I've always found PHP awkward to use but I'd always kind of put it into the whole "PHP is the worst web development language there is; apart from all the others" sort of a box.
 
 I'd always been interested in Python, but I find it very difficult to learn something by following through a tutorial. I need to have a project to get stuck in to and the few ideas I have had were always a little over-ambitious.

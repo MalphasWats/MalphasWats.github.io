@@ -3,8 +3,6 @@ layout: post
 title: Replacing Office
 ---
 
-#{{ page.title }}
-
 Writing slightly behind the curve as usual. [Google made some comments][GOOG] this month that their Docs system is making a push in the next year to properly replace traditional desktop office software.
 
 Google acquired their Docs codebase back in September of 2006 when they [bought writely][BUYW]. Back then, Writely was little more than a glorified text editor.

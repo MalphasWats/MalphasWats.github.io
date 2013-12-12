@@ -3,8 +3,6 @@ layout: post
 title: Advertising
 ---
 
-#{{ page.title }}
-
 There are only really 2 ways to make money from writing on the internet:
 
 - Paywall

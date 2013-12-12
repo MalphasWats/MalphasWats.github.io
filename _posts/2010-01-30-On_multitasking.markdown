@@ -3,8 +3,6 @@ layout: post
 title: On multitasking
 ---
 
-#{{ page.title }}
-
 Reading around various commentaries on the iPad one criticism in particular stands out, it's usually the first thing the tech writers mention, as if it's some horrifically fatal flaw.
 
 "no multitasking".

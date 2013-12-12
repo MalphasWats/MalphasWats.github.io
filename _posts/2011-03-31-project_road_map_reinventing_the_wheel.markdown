@@ -3,8 +3,6 @@ layout: post
 title: project road map - reinventing the wheel
 ---
 
-#{{ page.title }}
-
 <p class="byline">posted by Mike Watts on Thursday, 31 March 2011 @ 13:13</p>
 
 I was asked today if I have a roadmap for what I plan to do with staticDimension.

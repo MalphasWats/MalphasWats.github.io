@@ -3,8 +3,6 @@ layout: post
 title: Installing and configuring PostgreSQL
 ---
 
-#{{ page.title }}
-
 I've tried quite a few times to get PostgreSQL up and running on my system. I've read plenty about how it's 'better' than MySQL. Although I've not been convinced by that, purely the fact that I *couldn't* install it was irritating me enough to give it another go.
 
 For the first part, I was mostly able to follow the [Ubuntu PostgreSQL documentation][1].

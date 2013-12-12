@@ -3,8 +3,6 @@ layout: post
 title: New Blog
 ---
 
-#{{ page.title }}
-
 I've had this website for quite some time now. In that time I've hosted various different blogs, all of my own creation.
 
 I enjoy the challenge of developing my own systems, generally I get them to the point where I can talk about what I'm doing, I tinker with it for a while, then I run out of interesting things to say.

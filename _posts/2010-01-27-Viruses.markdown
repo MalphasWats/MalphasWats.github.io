@@ -3,8 +3,6 @@ layout: post
 title: Viruses
 ---
 
-#{{ page.title }}
-
 [This XKCD comic][XKCD] made me think about viruses. It's interesting, viruses are kind of a household name really, I'd say that the vast majority of computer users understand that viruses are something that can happen to them, even if they don't know how or why, or what to do to prevent against them etc etc.
 
 I haven't had a virus for many years, and it has nothing to do with me using some exotic operating system; my day-to-day computer was Windows XP for years, only recently has it been upgraded to Windows 7.

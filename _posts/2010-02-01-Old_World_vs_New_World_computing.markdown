@@ -3,8 +3,6 @@ layout: post
 title: Old World vs New World computing
 ---
 
-#{{ page.title }}
-
 [Old World vs New World computing][LINK]
 
 I came to this via [Daring Fireball][DF], it's a very interesting read.

@@ -3,8 +3,6 @@ layout: post
 title: Making Progress
 ---
 
-#{{ page.title }}
-
 ![Cadence Emilia](http://www.subdimension.co.uk/files/images/cadence.jpg "Cadence Emilia")
 
 Things have been moving slowly in the last week on account of a new arrival in our house!

@@ -3,8 +3,6 @@ layout: post
 title: Dungeons and Dragons
 ---
 
-#{{ page.title }}
-
 A few months ago, after listening to the Penny Arcade podcast that Wizards put together, my geek threshold was activated and I went out and bought myself the 4th Edition books.
 
 Over the next few weeks I became engrossed in them. I'd never had the kind of friend-groups when I was a kid that played these kinds of games so I never got into them. I did manage to find a small group amongst my grown-up adult friends who were willing to give it a go however.

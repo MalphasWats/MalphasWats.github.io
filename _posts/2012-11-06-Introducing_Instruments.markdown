@@ -3,8 +3,6 @@ layout: post
 title: Introducing Instruments
 ---
 
-#{{ page.title }}
-
 I've been working on Instruments for some time now. Since I first wrote pyDimension, I've bolted on an interface for my web stats tracking app and a custom bookmarking app but it was all done rather clumsily.
 
 Instruments is a Flask application skeleton that simply provides a login form and authenticates against a database. Functionality, such as a static blog generator or the aforementioned web stats and bookmarking can then be added as 'blueprints' which Instruments will load in at start up.

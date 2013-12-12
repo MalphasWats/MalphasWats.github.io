@@ -3,8 +3,6 @@ layout: post
 title: I've Been Busy
 ---
 
-#{{ page.title }}
-
 I hate it when I finally make a decision to do something, and then I just get interrupted, or suddenly remember that I was supposed to have done something else and by the time I actually find myself ready to start I've completely forgotten what I meant to do in the first place.
 
 My blogging has already become a little less frequent than I ever intended and my wonderful ideas for fantastic tutorial content seem to remain in the idea realm forever.

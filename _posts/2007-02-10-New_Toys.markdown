@@ -3,8 +3,6 @@ layout: post
 title: New Toys!
 ---
 
-#{{ page.title }}
-
 My 50mm 1.8D Nikkor beauty arrived this morning! Hurrah! It's everything I hoped it would be, although I can already see that I've got a bit of a learning curve to get my photos right. My first photo is of my beloved Pumpkin. She makes such a wonderful photographic subject, not least because she's very patient for a cat!
 
 {missing photo of Pumpkin}

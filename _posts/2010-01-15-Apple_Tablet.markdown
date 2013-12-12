@@ -3,8 +3,6 @@ layout: post
 title: Apple Tablet
 ---
 
-#{{ page.title }}
-
 I'm never going to be a major source of news, so I don't rush to post about all the KoOL N3W StuFFS! but I'm getting quite excited about the prospect of an Apple Tablet of some description.
 
 John Gruber has been keeping my saliva glands going over at his [Daring Fireball Blog][DF].

@@ -3,8 +3,6 @@ layout: post
 title: Carelessness
 ---
 
-#{{ page.title }}
-
 [This piece by John Gruber](http://daringfireball.net/2011/03/nitro_ios_43) on the changes to Mobile Safari vs. UIWebView makes some sense, and sure, the fact that things aren't any slower anywhere, just faster in some places is a complete non-issue.
 
 I'm more interested in how they managed to break offline caching of pages and data for websites that have been added to the homescreen.

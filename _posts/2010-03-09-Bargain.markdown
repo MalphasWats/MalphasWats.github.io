@@ -3,8 +3,6 @@ layout: post
 title: Bargain!
 ---
 
-#{{ page.title }}
-
 [MacHeist](http://www.macheist.com/)
 
 I just dropped thirteen and one half english pounds and helped out some animals. I'm crossing my fingers that tweetie gets unlocked - it's probably my all time favorite iPhone app.

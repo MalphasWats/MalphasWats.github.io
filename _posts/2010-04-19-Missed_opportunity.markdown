@@ -3,8 +3,6 @@ layout: post
 title: Missed opportunity
 ---
 
-#{{ page.title }}
-
 It strikes me that with the giant ash cloud hanging over Europe, the UK has missed an opportunity that Spain appears to be about to capitalise on.
 
 [According to the BBC](http://news.bbc.co.uk/1/hi/uk/8629392.stm) Spain is currently in the process of setting itself up as the main hub for European and possibly even N/S American travel. The UK government is sending naval ships in to evacuate stranded Britons.

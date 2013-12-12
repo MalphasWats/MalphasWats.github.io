@@ -3,8 +3,6 @@ layout: post
 title: My Life on the Web
 ---
 
-#{{ page.title }}
-
 I've decided that I need to organise myself and what better way than to sign up to every online thingumy going and just upload my entire life. I work across 3 different computers and I'm currently in negotiations to get myself a shiny new laptop out of my boss so now's the time.
 
 I've been using GMail for a couple of years now and all of my e-mail finds it's way there eventually. I'm yet to be privileged enough to be allowed to make it check my pop-accounts directly, but since I own my own domains, this isn't really an issue.

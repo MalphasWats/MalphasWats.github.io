@@ -3,8 +3,6 @@ layout: post
 title: Tidy up Google Reader
 ---
 
-#{{ page.title }}
-
 I'm mostly a fan of Google's new styling but it just doesn't work for me in Reader. I use Reader every day on my work machine and I'm deeply worried about the current buzz on the interwebs about its bleak future.
 
 In the mean time, I've installed the [User CSS](http://code.grid.in.th/) Safari extension and have tweaked Reader's look to give me back that all important vertical space with the following:

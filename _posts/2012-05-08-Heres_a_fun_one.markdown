@@ -3,8 +3,6 @@ layout: post
 title: Here's a fun one
 ---
 
-#{{ page.title }}
-
 In my [last post][strwrdcount] I created a function to return all of the words from a blog post. I stripped out all of the 'non-word' characters with this:
 
     PUNCTUATION = "#$%&"'()*+,./:;<=>!?@[]^`{|}~"

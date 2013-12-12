@@ -3,8 +3,6 @@ layout: post
 title: Developing Games in Javascript
 ---
 
-#{{ page.title }}
-
 I was inspired by the [Ludum Dare][LD25] competition at the beginning of last month. I wanted to make a game!
 
 Initially I started working in Python but sadly the current state of game libraries' OS X compatibility leaves plenty for another post. I thought I'd give Javascript a whirl.

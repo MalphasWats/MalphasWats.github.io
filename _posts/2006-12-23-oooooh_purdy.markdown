@@ -4,8 +4,6 @@ title: oooooh, purdy...
 link: http://electricsheep.org/
 ---
 
-#[{{page.title}}]({{page.link}})
-
 I found this today after reading that Google have had a [Dreams in High Fidelity](http://draves.org/blog/archives/000455.html) "Evolving Painting" installed in their lobby. I love this, and as ever it appears that I'm well behind the curve as usual. 
 
 I've stuffed it on my laptop, and to counteract the fact that I never use screensavers, preferring instead to hibernate, I mixed in a bit of [Vital Desktop](http://vital-desktop.sourceforge.net/) which turns my desktop into a virtual sheep pen.

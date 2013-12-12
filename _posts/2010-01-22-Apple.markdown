@@ -3,8 +3,6 @@ layout: post
 title: Apple
 ---
 
-#{{ page.title }}
-
 Tycho [wrote a little something][PA] about the Apple Tablet on Penny Arcade.
 
 For me, Apple flew under my radar until they released the iPhone, it was my first Apple product and has so far been my last for the single reason of price.

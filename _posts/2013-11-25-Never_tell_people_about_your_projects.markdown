@@ -3,8 +3,6 @@ layout: post
 title: Never tell people about your projects
 ---
 
-#{{ page.title }}
-
 I last posted here on the 1st of July. Not the longest outage, but possibly the most irritating.
 
 I'd been working hard on my [mo.lecul.es](http://mo.lecul.es) project and was getting myself psyched up to actually release it.

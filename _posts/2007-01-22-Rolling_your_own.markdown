@@ -3,8 +3,6 @@ layout: post
 title: Rolling your own
 ---
 
-#{{ page.title }}
-
 It probably shows that I built everything here my very self, rather than using an "off the peg" solution.
 
 I prefer the challenge of making something myself and learning something along the way, but having read [an article about writing text editors](#link_gone_forever), and trying to write a proper article about my recent experiences teaching in a brand new learning space, I'm wondering if it might not be the best choice.

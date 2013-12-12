@@ -3,8 +3,6 @@ layout: post
 title: staticDimension - "baked publishing"
 ---
 
-#{{ page.title }}
-
 A couple of weeks ago I read an article about [baked weblogs](http://inessential.com/2011/03/16/a_plea_for_baked_weblogs) by Brent Simmons.
 
 I've hosted a number of different versions of this website over the last few years, all of them relied on a database in the back end. I've always enjoyed building and tinkering with databases - they're one of the few areas of pure computer science where the proper forms all make sense and there's enormous satisfaction for me in crafting a particularly complex query completely from thin air and it just working first time!

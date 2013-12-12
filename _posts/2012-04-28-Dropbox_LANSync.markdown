@@ -3,8 +3,6 @@ layout: post
 title: Dropbox LANSync
 ---
 
-#{{ page.title }}
-
 I had a friendly email from my VPS provider this morning. It had been reported that my server was port scanning other servers and that I needed to do something about it.
 
 My first instinct was to panic: "OMG, I've been hacked and I'm spewing spam from my server, I should never have thought I was ever capable of running these things myself".

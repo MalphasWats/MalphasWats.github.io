@@ -3,8 +3,6 @@ layout: post
 title: loading Flask blueprints dynamically
 ---
 
-#{{ page.title }}
-
 I wanted to be able to add and load plug-ins for a new system I'm working on without knowing what they were called at development time.
 
 Ultimately, I created a very basic skeleton for doing this here:

@@ -3,8 +3,6 @@ layout: post
 title: pymysql and the big bad blob
 ---
 
-#{{ page.title }}
-
 or: storing a large file in a mysql blob field with pymysql.
 
 I have a fun little side project going on at work at the moment, I'm a teacher and we wanted a super-light-weight learning platform for a new [Blended Learning](http://en.wikipedia.org/wiki/Blended_learning) pilot that we're running. Something were students could log on, follow a course set by teachers, upload their work and receive marks and feedback on that work.

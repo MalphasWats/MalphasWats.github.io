@@ -3,8 +3,6 @@ layout: post
 title: 3 hours 3 rolls and a whole lotta fun
 ---
 
-#{{ page.title }}
-
 My D&D group met up last night for the first time this year. Being an adult sucks when work and family and all that grown-up stuff gets in the way of having fun.
 
 My friend Adam is DMing our current campaign, a story that is entirely of his own making.

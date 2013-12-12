@@ -3,8 +3,6 @@ layout: post
 title: France
 ---
 
-#{{ page.title }}
-
 {missing photograph}
 
 I have returned from a very pleasant week in France. I went over to stay with a friend who very graciously put me up in their very nice house in the countryside.

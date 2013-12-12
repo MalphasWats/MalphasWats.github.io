@@ -3,8 +3,6 @@ layout: post
 title: flask, mod_wsgi, ssl, oh my!
 ---
 
-#{{ page.title }}
-
 I wanted to be able to access my [instruments](https://github.com/MalphasWats/instruments) control panel via `https://` as well as `http://`.
 
 First, I started off by getting an SSL certificate. I used [StartSSL](https://www.startssl.com) which offers a free-tier SSL certificate. Following all of their steps carefully, I ended up with 2 files:

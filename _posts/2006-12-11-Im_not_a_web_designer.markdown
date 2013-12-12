@@ -3,8 +3,6 @@ layout: post
 title: I'm not a web designer...
 ---
 
-#{{ page.title }}
-
 ...and it bugs the hell out of me.
 
 I love developing websites, making all the little pieces fit together, building funky php doohickeys and databases and clever javascript thingumies.

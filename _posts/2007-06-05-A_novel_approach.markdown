@@ -3,8 +3,6 @@ layout: post
 title: A novel approach
 ---
 
-#{{ page.title }}
-
 It's that time again. It's like 7-year-itch, where you've been in a relationship for 7 years and it's time to have a little look around. Or 8-month-itch, where you've had a mobile phone handset for 8 months and it's time to get a new one (you all get these right? It's not just me?).
 
 Well, I also get 5-minute-itch, where my website has looked a certain way for 5 minutes and I want to 'redesign' it.

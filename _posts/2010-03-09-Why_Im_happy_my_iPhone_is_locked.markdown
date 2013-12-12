@@ -3,8 +3,6 @@ layout: post
 title: Why I'm happy my iPhone is locked
 ---
 
-#{{ page.title }}
-
 [Vodafone distributes mariposa](http://research.pandasecurity.com/vodafone-distributes-mariposa/) (via [DF](http://daringfireball.net/linked/2010/03/09/vodafone))
 
 Apparently a refurbished phone was sent back out with a number of malwares resident.

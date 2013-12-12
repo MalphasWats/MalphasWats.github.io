@@ -3,8 +3,6 @@ layout: post
 title: PostgreSQL unicode
 ---
 
-#{{ page.title }}
-
 I was having trouble storing unicode strings in my postgresql database.
 
 DISCLAIMER: I'm still really struggling with Unicode in Python, but I think I got a little closer to understanding today!

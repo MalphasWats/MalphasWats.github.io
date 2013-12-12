@@ -3,8 +3,6 @@ layout: post
 title: What would your parents think?
 ---
 
-#{{ page.title }}
-
 Today I had the interesting task of investigating a bullying incident between 2 students at my school. As an ICT teacher, I get asked to deal with these issues from time to time because modern bullying is all about the technology.
 
 E-mail, generally considered to be simultaneously one of the greatest inventions of the 20th Century, and the Bane of many a life. Today's kids don't bother thumping each other or calling each other names, at least not to their face. E-mail and SMS messaging are now the weapons of choice.

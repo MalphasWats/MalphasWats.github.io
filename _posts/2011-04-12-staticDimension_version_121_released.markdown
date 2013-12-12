@@ -3,8 +3,6 @@ layout: post
 title: staticDimension - version 1.2.1 released
 ---
 
-#{{ page.title }}
-
 I've released [version 1.2.1](/files/staticDimension-1.2.1.tar.gz) of staticDimension today.
 
 I've also updated the [change log](/pages/staticDimension_changelog.html#1.2.1), main change is that the archive system works a little better, although it is still far from being perfect, I'm struggling to work out how best to present it, at least it now cleans up after itself when posts are deleted.

@@ -3,8 +3,6 @@ layout: post
 title: staticDimension templates
 ---
 
-#{{ page.title }}
-
 staticDimension has been designed with very simple templating support.
 
 I'm under no illusions that the default template that comes with staticDimension is particularly pretty.

@@ -3,8 +3,6 @@ layout: post
 title: Godspell
 ---
 
-#{{ page.title }}
-
 {missing photograph}
 
 My School are currently putting on the musical [Godspell](http://en.wikipedia.org/wiki/Godspell) and as my Wife is the Musical Director, I generally get the job of Official Photographer. I actually enjoy it, but I also find it extremely challenging. The light at these things is always horrible for photography; it's dark, super bright in tiny spot-lights and really red everywhere else, then there's lots of movement and even with a tripod I barely get anything.

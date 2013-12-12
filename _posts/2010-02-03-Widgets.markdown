@@ -3,8 +3,6 @@ layout: post
 title: Widgets
 ---
 
-#{{ page.title }}
-
 [Widgets on iPhone 4.0 OS][LINK]
 
 ![Home Screen](/files/1/images/home_screen.jpg) 

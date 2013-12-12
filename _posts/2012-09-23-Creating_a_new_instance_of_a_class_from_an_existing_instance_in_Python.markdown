@@ -3,8 +3,6 @@ layout: post
 title: Creating a new instance of a class from an existing instance in Python
 ---
 
-#{{ page.title }}
-
 I've been wasting a lot of time creating a [game in Python](https://github.com/MalphasWats/sector-7).
 
 I'm sure this isn't news, but it took quite a lot of searching to find [the answer](http://stackoverflow.com/questions/5924879/how-to-create-a-new-instance-from-a-class-object-in-python). I the game I have a `tech tree list` that holds an instance of each of the buildings that can be built. When you want to build a new one, the game lists these buildings and you choose one.

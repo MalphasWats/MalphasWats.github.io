@@ -3,8 +3,6 @@ layout: post
 title: Flask Response headers and IE's cache
 ---
 
-#{{ page.title }}
-
 I'm working on a new project at work and my work with pyDimension recently meant I can switch from PHP to Python there too. It's already making my life easier.
 
 I hit upon an old issue that I'd solved long ago in PHP, Internet Explorer stupidly caches all `XMLHttpRequest` responses. I can almost understand the logic: If you're requesting the same URL, you should get the same response.

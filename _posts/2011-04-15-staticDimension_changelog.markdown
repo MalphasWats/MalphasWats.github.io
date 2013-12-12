@@ -3,8 +3,6 @@ layout: post
 title: staticDimension changelog
 ---
 
-#{{ page.title }}
-
 Neatened up the manage files control panel and fixed issues with breadcrumbs not linking properly.
 
 fixed a minor security bug where rogue paths weren't being stripped off input properly.

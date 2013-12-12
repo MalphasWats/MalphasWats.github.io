@@ -3,8 +3,6 @@ layout: post
 title: Static Text Search
 ---
 
-#{{ page.title }}
-
 I've been thinking about how I use my blog. Moving it to a new server made me want to redesign it, redesigning it makes me want to use it more. I'm always inspired by the blogs that I read, but I know that I don't have the sort of tech contacts they do, or the insanely deep knowledge to pass on.
 
 What I am quite good at though, is solving technical problems - I come up with a good idea and I'm usually fairly good at following through and making something of it, provided it's fairly small.

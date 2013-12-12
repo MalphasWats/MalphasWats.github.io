@@ -3,8 +3,6 @@ layout: post
 title: Five Years
 ---
 
-#{{ page.title }}
-
 I was informed yesterday by a friend that today is the 5 year anniversary of our first foray into the World of Warcraft.
 
 I was spooked a little because I had spontaneously decided to download, install and reactivate my account after about 2 years of not having played it.

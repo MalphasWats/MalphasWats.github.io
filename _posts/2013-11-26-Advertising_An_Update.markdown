@@ -3,8 +3,6 @@ layout: post
 title: Advertising - An Update
 ---
 
-#{{ page.title }}
-
 [Back in January](/2013/01/22/Advertising.html) I decided to try a short experiment by adding ads to my site, just to see what happened.
 
 I only intended to leave it in place for a couple of months, but I think I've established by now that I'm at the very least a chronic procrastinator.

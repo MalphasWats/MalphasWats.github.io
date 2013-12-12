@@ -3,8 +3,6 @@ layout: post
 title: Hacking
 ---
 
-#{{ page.title }}
-
 [Hacking Your Bank](http://snosoft.blogspot.com/2010/04/hacking-your-bank.html)
 
 > We started the screening call with the standard meet and greet, and an explanation of why we were interested in the opportunity. Once we felt that the conversation was flowing smoothly, we began to dig in a bit and start asking various technology questions. In doing so, we learned what Anti-Virus technologies were in use and we also learned what the policies were for controlling outbound network traffic.

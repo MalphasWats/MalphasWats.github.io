@@ -3,8 +3,6 @@ layout: post
 title: Apple iPad
 ---
 
-#{{ page.title }}
-
 So Apple announced the iPad yesterday.
 
 I followed the event via the engadget liveblog and whilst the device looks *awesome*, I was left a little underwhelmed.

@@ -3,8 +3,6 @@ layout: post
 title: New Design
 ---
 
-#{{ page.title }}
-
 I've spent the last couple of days working on a new design for my site. Since I got my new iPad, the various images I used in my old design were looking a bit ropey.
 
 I noticed [Noah Stokes](http://esbueno.noahstokes.com/post/20052847667/a-new-look) had gone with a text-only site which looks fantastic on the retina-display-endowed iPad. Most of the time I spent working on this was spent looking for a font!

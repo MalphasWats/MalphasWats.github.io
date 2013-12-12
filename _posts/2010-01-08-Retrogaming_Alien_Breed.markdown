@@ -3,8 +3,6 @@ layout: post
 title: Retro-gaming - Alien Breed
 ---
 
-#{{ page.title }}
-
 [Alien Breed][AB] - Fantastic classic Amiga game, reborn on the Xbox.
 
 I just wish someone would resurrect [Midnight Resistance][MR]!

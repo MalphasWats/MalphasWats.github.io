@@ -3,8 +3,6 @@ layout: post
 title: PostgreSQL triggers in plpython
 ---
 
-#{{ page.title }}
-
 I wanted to run a query that inserted rows into table B whenever a new row was added to table A.
 
 The first step took quite some time. You have to start off by adding the procedural language you wish to use to the database you're working with. I'm happy with Python, so I chose `plpython`:

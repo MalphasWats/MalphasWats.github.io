@@ -3,8 +3,6 @@ layout: post
 title: staticDimension - version 1.3 released
 ---
 
-#{{ page.title }}
-
 I've just uploaded [version 1.3](http://subdimension.co.uk/files/staticDimension-1.3.tar.gz) to the server adding support for using external applications such as [MarsEdit](http://www.red-sweater.com/marsedit/) to publish articles and pages via the MetaWeblog API.
 
 I wasn't all that sure about why people would use applications like this but having spent the last 2 days staring at MarsEdit, I'm definitely a convert (using it to write this!).

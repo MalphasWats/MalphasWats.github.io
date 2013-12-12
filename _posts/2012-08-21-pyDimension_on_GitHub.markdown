@@ -4,8 +4,6 @@ title: pyDimension on GitHub
 link: https://github.com/MalphasWats/pyDimension
 ---
 
-#[{{page.title}}]({{page.link}})
-
 It's taken me a while to get around to putting this on GitHub, I was a bit nervous about settings files and such, I couldn't quite get my head around how to put them into a public repository without exposing all my secrets (including accidentally in 6 months when I forget and commit my changed versions).
 
 I actually ended up asking the GitHub people what best practice is. They suggested including `.example` files, which is fairly obvious now I know it!

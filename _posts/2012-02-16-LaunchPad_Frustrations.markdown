@@ -3,8 +3,6 @@ layout: post
 title: LaunchPad Frustrations
 ---
 
-#{{ page.title }}
-
 I have spent a good few hours lately mapping out how OS X Lion manages LaunchPad. I quite like it and have gotten used to using it but I *really* don't want *every* single app on my mac showing up spread all over the place in there.
 
 I'd pretty much got it figured out, it's all stored in a handy little sqlite database and I'd even written a nice little bash script to remove icons I didn't want and tidy things up.

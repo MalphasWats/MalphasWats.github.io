@@ -3,8 +3,6 @@ layout: post
 title: more pricing
 ---
 
-#{{ page.title }}
-
 
 [Samsung’s New Galaxy Tabs: The iPad 2 Gets Well-Priced Competition](http://technologizer.com/2011/03/22/samsungs-new-galaxy-tabs-the-ipad-2-gets-well-priced-competition/)
 

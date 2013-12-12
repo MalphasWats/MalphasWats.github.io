@@ -3,8 +3,6 @@ layout: post
 title: Marble
 ---
 
-#{{ page.title }}
-
 {missing photo}
 
 I haven't had much time to take photos lately, which is a real shame. This is Marble. Marble is Pumpkin's best friend in the whole wide world.

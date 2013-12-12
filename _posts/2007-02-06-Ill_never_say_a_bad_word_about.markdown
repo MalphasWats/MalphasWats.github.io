@@ -3,8 +3,6 @@ layout: post
 title: I'll never say another bad word about...
 ---
 
-#{{ page.title }}
-
 Windows.
 
 I got a very nice new laptop yesterday, I really like it. Being the Geek that I am I decided it would be even better running Ubuntu. I'd even done a dry run on my old laptop and things were looking good.

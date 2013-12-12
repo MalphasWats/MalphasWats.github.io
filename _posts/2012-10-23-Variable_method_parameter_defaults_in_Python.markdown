@@ -3,8 +3,6 @@ layout: post
 title: Variable method parameter defaults in Python
 ---
 
-#{{ page.title }}
-
 [Pulse](https://github.com/MalphasWats/pulse) is my very simple web stats tracker. A bit like Google Analytics, but without all the Google (and most of the features). I only really cared about the referrer information; it's nice to know who is linking to you.
 
 I had a method that looked like this:

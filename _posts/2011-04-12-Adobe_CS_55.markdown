@@ -3,8 +3,6 @@ layout: post
 title: Adobe CS 5.5
 ---
 
-#{{ page.title }}
-
 <p class="byline">posted by Mike Watts on Tuesday, 12 April 2011 @ 14:38</p>
 
 I've seen a lot of people talking about Adobe's announcement of version 5.5 of their Creative Suite. Everyone mentions the fact that you can now rent the software instead of buying it outright.

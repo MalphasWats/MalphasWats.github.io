@@ -3,8 +3,6 @@ layout: post
 title: Advertising
 ---
 
-#{{ page.title }}
-
 This morning, [I started a short journey][DF] on John Gruber's blog. From there, I read [Rob Sayre's post][MOZ], which finally lead me to click the [ARS link][ARS], although I would have found the article myself further down my feed list.
 
 Finally, in the interests of completeness, I hit the [rebuttal link][CRAZY] in the Mozilla post. It was this post that really inspired me to action, although the topic itself is an interesting and thorny one.

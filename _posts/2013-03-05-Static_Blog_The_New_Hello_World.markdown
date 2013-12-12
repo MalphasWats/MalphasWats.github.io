@@ -3,8 +3,6 @@ layout: post
 title: Static Blog - The New "Hello World"
 ---
 
-#{{ page.title }}
-
 I've been thinking about [a comment I read][HNCOMMENT] on an [HN thread][HNTHREAD] introducing a static blogging engine someone had written.
 
 It's difficult to tell the tone the line was written with:

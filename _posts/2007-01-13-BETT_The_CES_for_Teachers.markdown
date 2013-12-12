@@ -3,8 +3,6 @@ layout: post
 title: BETT: The CES for Teachers!
 ---
 
-#{{ page.title }}
-
 I was lucky enough to have my first experience of the BETT show today. Myself and a colleague from work pitched up at 11am this morning and were straight into Microsoft's presentation on Vista in the classroom (given by a friend of my trip-mate). Vista has some interesting features for the classroom, most notable for me is the Journalling Filesystem (it's almost certainly got some much fancier name that I can't really be bothered to look up right now). Basically Windows Vista keeps a 'Shadow Copy' of each version of a file, so for those all too common (you'd be surprised) occurrences of "Sir, I accidentally click 'Save As' instead of 'Open' and saved a blank document over my work", you can just click back and pull up the previous version of the file from the giant filesystem database.
 
 This is nothing new, I had this highly useful feature available to rescue me from myself when I worked on the entirely text-based VAX-VMS systems at my last job. It is however the first time to my knowledge that it has made its way onto mainstream desktop computing and I for one welcome it.

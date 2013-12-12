@@ -3,8 +3,6 @@ layout: post
 title: More on User Experience
 ---
 
-#{{ page.title }}
-
 <p class="byline">posted by Mike Watts on Thursday, 25 February 2010 @ 20:28</p>
 
 HCI was a faculty in the University I attended and I remember the seat I chose in the lecture theatre they used for the module I took with them.

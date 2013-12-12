@@ -4,8 +4,6 @@ title: This essay makes me feel stupid
 link: http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 ---
 
-#[{{page.title}}]({{page.link}})
-
 I read through this essay, nodding and smiling most of the way (not all because I was only pretending I knew what he was talking about).
 
 There's a section of code from my post yesterday that left me feeling uncomfortable:

@@ -3,8 +3,6 @@ layout: post
 title: Found it!
 ---
 
-#{{ page.title }}
-
 I worked out one of the reasons my [nasty little function](http://subdimension.co.uk/2012/04/20/New_Project_pyDimension.html) is bad:
 
     if '/' in sPath:

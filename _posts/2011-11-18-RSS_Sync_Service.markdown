@@ -3,8 +3,6 @@ layout: post
 title: RSS Sync Service
 ---
 
-#{{ page.title }}
-
 *I wrote this post back in 2011, I felt the need to write [an update](http://www.subdimension.co.uk/2013/03/14/RSS_Sync_and_Google_Reader.html) today in 2013, can't think why...*
 
 I've been following the recent chatter regarding Google Reader and it's possible demise. I use Google Reader every day, either with the web app from my laptop or with [Byline][1] on my iPhone and iPad.

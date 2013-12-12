@@ -3,8 +3,6 @@ layout: post
 title: Technology in Education
 ---
 
-#{{ page.title }}
-
 Early last week I was asked to write an article for an e-learning blog. I'm not sure if they used it in the end so I thought I'd publish it here:
 
 

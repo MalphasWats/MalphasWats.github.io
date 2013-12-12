@@ -3,8 +3,6 @@ layout: post
 title: Running your own server is easy...
 ---
 
-#{{ page.title }}
-
 ...isn't it?
 
 I've been a geek for as long as I can remember. I've always loved tinkering with *the other side* of computers. I remember spending hours typing code from a book into my Commodore 64, to get a sprite of a hot air balloon to sail across the screen. I even have vague memories of making it move in response to a joystick, although it's difficult to recall whether I ever actually managed to make it work, or if that was just what I spent a lot of time *trying* to do.

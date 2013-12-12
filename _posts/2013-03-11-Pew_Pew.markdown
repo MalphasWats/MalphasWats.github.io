@@ -3,8 +3,6 @@ layout: post
 title: Pew! Pew!
 ---
 
-#{{ page.title }}
-
 I've really been enjoying noodling about learning HTML5 Canvas and JavaScript and whatnot, I have [plans][LD]!
 
 A couple of weeks ago I started running *Computer Club* at the school I teach at. Last week we started playing around with a space shooter akin to Xenon 2* and its ilk.

@@ -3,8 +3,6 @@ layout: post
 title: Service Un-interrupted
 ---
 
-#{{ page.title }}
-
 As I write this, Google Reader is still available but its lifetime is measured in hours.
 
 For the last 3 days, I have been using [mo.lecul.es](http://mo.lecul.es/) via [Reeder](http://reederapp.com/iphone/) on my iPhone, using the Fever API option, and the web app that I started building on Friday on everything else!

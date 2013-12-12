@@ -3,8 +3,6 @@ layout: post
 title: accessing PostgreSQL from a remote client
 ---
 
-#{{ page.title }}
-
 Previously I went through the steps I took to install and configure PostgreSQL. I set this up on my web server machine through SSH.
 
 My Mac also has the `psql` client installed on it (out of the box!) but by default PostgreSQL is configured to refuse connections from remote hosts.

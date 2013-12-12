@@ -3,8 +3,6 @@ layout: post
 title: Multiple Flask applications in one package
 ---
 
-#{{ page.title }}
-
 I'm almost ready to deploy pyDimension to my live server. I mentioned previously that I'd been working on the search indexer - every time a new post is saved, I break it up into a list of words and add the post's url to a file named for each word.
 
 The other side of the process is taking a search string, breaking it down into words and finding all of the posts that match the terms. I even have my own PageRank algorithm:

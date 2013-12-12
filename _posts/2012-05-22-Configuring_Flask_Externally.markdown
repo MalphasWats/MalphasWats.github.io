@@ -3,8 +3,6 @@ layout: post
 title: Configuring Flask Externally
 ---
 
-#{{ page.title }}
-
 Or "In before Diablo III".
 
 I finally deployed my system last week, just before Diablo III got released and gobbled up all my free time!

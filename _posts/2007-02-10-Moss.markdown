@@ -3,8 +3,6 @@ layout: post
 title: Moss
 ---
 
-#{{ page.title }}
-
 {Missing photo}
 
 *Edit in 2013*: Sadly, Zooomr is no more. I still have the photo I had posted somewhere so I'll dig it out and upload it at some point.

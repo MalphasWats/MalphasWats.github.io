@@ -3,8 +3,6 @@ layout: post
 title: Energy
 ---
 
-#{{ page.title }}
-
 I read an interesting book about energy and the world's worrying lack of it a while ago.
 
 [Without Hot Air][WHA]

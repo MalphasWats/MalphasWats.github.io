@@ -3,8 +3,6 @@ layout: post
 title: Syncing Dropbox on Linux
 ---
 
-#{{ page.title }}
-
 My new design was triggered by a server move; I needed a new server that isn't sat in my [downstairs cupboard](/2010/01/07/New_Server.html).
 
 I wanted to try developing on my iPad, and I needed a way to make sure everything stayed in sync, so I decided to keep everything in Dropbox and keep it in sync across all of my machines.

@@ -3,8 +3,6 @@ layout: post
 title: Kickstarter
 ---
 
-#{{ page.title }}
-
 I've only recently become aware of [Kickstarter](http://www.kickstarter.com/), I follow The Russians Used A Pencil blog when back in October last year they started the [Glif project](http://www.therussiansusedapencil.com/post/1239840266/glif-an-iphone-4-tripod-mount-stand).
 
 I was fascinated by their process and although I didn't fund the project (by the time I got around to reading about it, it had already reached 100%), I did buy myself a Glif from their website afterwards.

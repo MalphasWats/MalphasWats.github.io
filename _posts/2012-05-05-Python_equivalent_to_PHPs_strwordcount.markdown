@@ -3,8 +3,6 @@ layout: post
 title: Python equivalent to PHP's str word count
 ---
 
-#{{ page.title }}
-
 I've been really enjoying learning Python. I'm discovering that it has plenty of its own little foibles, but on balance, seems to make a bit more sense than PHP (list slices are *so* much easier to remember than `substr()` or is it `substring()` or `sub_str()`?!)
 
 I'm still working on my Pythonic Static Blogging system, dubbed pyDimension for want of inspiration, and just finished implementing my [static search indexing system](http://subdimension.co.uk/2012/04/09/Static_Text_Search.html). Python didn't come with an obvious way to generate a list of word from a body of text like PHP does, so I had to implement my own.

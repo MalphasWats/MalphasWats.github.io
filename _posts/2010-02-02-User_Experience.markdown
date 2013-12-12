@@ -3,8 +3,6 @@ layout: post
 title: User Experience
 ---
 
-#{{ page.title }}
-
 There's a button on my laptop that doesn't work.
 
 I've had this laptop for about 2 years. It was the most advanced laptop that money could buy at the time, but even from day 1, the button didn't work.
