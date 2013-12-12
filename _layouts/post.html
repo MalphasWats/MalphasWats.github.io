@@ -3,6 +3,11 @@ layout: default
 ---
 
     <article>
+        {% unless page.link %}
+        <h1>{{page.title}}</h1>
+        {% else %}
+        <h1><a href="{{page.link}}">{{page.title}}</a></h1>
+        {% endunless %}
         {{ content }}
         
         <p class="byline">Posted by Mike Watts On {{ page.date | date_to_string }} | <a href="{{page.url}}">permalink</a></p>
