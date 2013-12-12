@@ -1,0 +1,14 @@
+---
+layout: post
+title: AR in Lego
+---
+
+#{{ page.title }}
+
+I came across this via [Derren Brown's Blog][DB]
+
+<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/PGu0N3eL2D0&hl=en_GB&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/PGu0N3eL2D0&hl=en_GB&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+
+I'm fascinated by Augmented Reality and I think this is such a fantastic real-world use of it. It's more than a gimmick, it actually has a useful business purpose.
+
+[DB]: http://derrenbrown.co.uk/blog/2010/02/awesome-augmented-reality-lego-store/

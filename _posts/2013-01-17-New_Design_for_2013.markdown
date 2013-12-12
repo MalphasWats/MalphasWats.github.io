@@ -1,0 +1,14 @@
+---
+layout: post
+title: New Design for 2013
+---
+
+#{{ page.title }}
+
+My website has a new design this week. I liked the simplicity of my old design, but I felt a little constrained by it. The width made me feel pressured to only post long articles, I'd like to be able to post twitter-style updates from time-to-time and I felt that they would look lost. The new design gives everything its own little box and I think this gives me more flexibility. My intention is to make a few small tweaks to [my blogging engine](https://github.com/MalphasWats/electrostatic) over the next week or so to facilitate different kinds of posts.
+
+The design is not so much inspired by [my GitHub profile page](https://github.com/MalphasWats) as it is a complete rip-off. I really like the layout, the sidebar with the avatar communicates the ownership of the writing here. I hope they don't mind too much. There are still a few little bugs to work out, so things might look a bit wonky whilst I work through them all. I'm not sure how the monospace font comes across, but I spend most of my free time looking at code, so again, I think it communicates a little of my personality.
+
+In preparation for my new design, I was perusing the Internet Archive. I was trying to get a feel for the last couple of designs I'd had. Unfortunately, the Way Back Machine hadn't archived any of my old style sheets, so I just got text. What they had archived though was a batch of old blog posts that I no-longer had! I spent a few hours copying and pasting the content into text-files and those posts are now preserved here. Reading through a few of them I was struck by just how poor I was (still am?) at writing and how I really didn't know what to write about. I think I've found my voice a little more over the last year or so, writing about developing the things I make. I don't need to worry about awkward opinions looking strange 3 years from now. I leave the posts as they were, aside from a few notes about things that have disappeared since I wrote about them.
+
+I've also noticed that a lot of my posts start in exactly the same way, which often sounds a bit odd, so I'm going to work on that this year! I found [a few tips on opening sentences](http://asserttrue.blogspot.co.uk/2013/01/how-to-write-opening-sentence.html), so I have somewhere to start!

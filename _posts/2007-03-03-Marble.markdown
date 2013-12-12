@@ -1,0 +1,12 @@
+---
+layout: post
+title: Marble
+---
+
+#{{ page.title }}
+
+{missing photo}
+
+I haven't had much time to take photos lately, which is a real shame. This is Marble. Marble is Pumpkin's best friend in the whole wide world.
+
+*Edit in 2013*: Sadly, Zooomr is no more. I still have the photo I had posted somewhere so I'll dig it out and upload it at some point.

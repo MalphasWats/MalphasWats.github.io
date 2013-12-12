@@ -1,0 +1,27 @@
+---
+layout: post
+title: Viruses
+---
+
+#{{ page.title }}
+
+[This XKCD comic][XKCD] made me think about viruses. It's interesting, viruses are kind of a household name really, I'd say that the vast majority of computer users understand that viruses are something that can happen to them, even if they don't know how or why, or what to do to prevent against them etc etc.
+
+I haven't had a virus for many years, and it has nothing to do with me using some exotic operating system; my day-to-day computer was Windows XP for years, only recently has it been upgraded to Windows 7.
+
+It might have something to do with not having any kind of virus scanning software installed - I decided early on that the risk of maybe getting a virus was preferable to definitely having a computer that ran like shit.
+
+I suspect though it mostly because I'm a vaguely intelligent *law abiding* type. I don't steal software or music or movies, so I have no need of P2P apps that aren't explicitly tooled to downloading updates for the games I have bought. I'm *comfortably endowed* so have no reason to open many of the emails I receive from for'n parts, I endure Windows Update regularly and I use Firefox as my primary web browser, oh and I rarely browse the internet outside of a firewall.
+
+That pretty much cuts my attack vectors to obscure browser/plugin/OS vulnerabilities and maybe a trusted correspondant deliberately sending a legitimate looking attachment that I'm expecting for some reason.
+
+Of course, I wouldn't be writing about this without *ever* having installed a virus checker, that would be foolish. The machine I am currently using started life with XP, 'upgraded' to Vista and then finally upgraded to Windows 7. The Vista incarnation lasted about 2 years and right at the end, a few months before its (probably final) metamorphosis I installed AVG, sat it scanning and went out for a few hours.
+
+The result: **No Viruses Found**
+
+Consider my feeling that riding bareback all this time was well worth the increase in performance justified.
+
+Viruses are for thieves and old people.
+
+
+[XKCD]: http://xkcd.com/694/

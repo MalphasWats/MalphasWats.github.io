@@ -1,0 +1,9 @@
+---
+layout: post
+title: Prompt
+link: http://www.panic.com/blog/2011/04/introducing-prompt-ssh-for-ios/
+---
+
+#[{{page.title}}]({{page.link}})
+
+absolutely fantastic SSH client for iOS from Panic.

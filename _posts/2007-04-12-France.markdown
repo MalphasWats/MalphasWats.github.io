@@ -1,0 +1,18 @@
+---
+layout: post
+title: France
+---
+
+#{{ page.title }}
+
+{missing photograph}
+
+I have returned from a very pleasant week in France. I went over to stay with a friend who very graciously put me up in their very nice house in the countryside.
+
+I had some really good photo opportunities whilst I was there, but upon returning and dumping all my lovely treasures onto my laptop, I have noticed that my camera's sensor is not so much dusty as it is positively covered in crap. Any photo I took that happened to include the beautiful blue clear sky is smattered with splodges. 
+
+Irritatingly, the only bit of software I have that is up to the job of fixing the splodges is Macromedia Fireworks, and that unceremoniously chops out any EXIF data I happen to have attached to my photies. 
+
+I might take the plunge and shell out for Adobe Lightroom, as that does a very nice job of de-splodging! Until then, I'll keep the photos hidden away like some kind of Phantom of the Opera. :(
+
+*Edit in 2013*: Sadly, Zooomr is no more. I still have the photo I had posted somewhere so I'll dig it out and upload it at some point.

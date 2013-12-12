@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+    <title>www.subdimension.co.uk blog feed</title>
+    <link>http://www.subdimension.co.uk/</link>
+    <description/>
+    <copyright>All rights reserved.</copyright>
+    <language>en-GB</language>
+    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+    <ttl>1440</ttl>
+    {% for item in site.posts limit:12 %}
+    <item>
+        <title><![CDATA[{{item.title}}]]></title>
+        {% unless item.link %}
+        <link>http://www.subdimension.co.uk{{item.url}}</link>
+        <guid>http://www.subdimension.co.uk{{item.url}}</guid>
+        {% else %}
+        <link>{{item.link}}</link>
+        <guid isPermaLink="false">http://www.subdimension.co.uk{{item.url}}</guid>
+        {% endunless %}
+        <description><![CDATA[
+        {{item.content}}
+        ]]></description>
+        <pubDate>{{item.date | date_to_xmlschema}}</pubDate>
+    </item>
+    {% endfor %}
+</channel>
+</rss>

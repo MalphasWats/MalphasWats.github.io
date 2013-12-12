@@ -1,0 +1,20 @@
+---
+layout: post
+title: Pew! Pew!
+---
+
+#{{ page.title }}
+
+I've really been enjoying noodling about learning HTML5 Canvas and JavaScript and whatnot, I have [plans][LD]!
+
+A couple of weeks ago I started running *Computer Club* at the school I teach at. Last week we started playing around with a space shooter akin to Xenon 2* and its ilk.
+
+The code is available on [GitHub][CODE] and you can also [Play the Game][GAME].
+
+IMPORTANT NOTE: The graphics are intentionally crappy! The idea was to offend the kids' sensibilities so much that they made their own art!! (The game is rubbish because *making games is hard*)
+
+\* Cute fact, my brother and I called this "Exanon" for far longer than either of us care to admit when we were kids.
+
+[LD]: http://www.ludumdare.com/compo/
+[CODE]: https://github.com/MalphasWats/SuperSpaceBattleYeah
+[GAME]: http://malphaswats.github.com/SuperSpaceBattleYeah/game.html

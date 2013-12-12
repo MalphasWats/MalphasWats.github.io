@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog_feed.xml">
+
+<link rel="stylesheet" type="text/css" href="/style/subdimension.css">
+
+<script type="text/javascript" src="http://system.subdimension.co.uk/pulse/a/"></script>
+
+<title>{{ page.title }} &raquo; subdimension</title>
+
+</head>
+
+<body>
+
+<header>
+	<h1>subDimension</h1>
+</header>
+
+<section>
+	<aside>
+		<img src="/style/assets/avatar.png" alt="Mike Watts">
+		
+		<h1>Mike Watts</h1>
+		<p>Never put your face in a bag of angry squirrels.</p>
+		
+		<nav>
+			<ul>
+				<li><a href="/">blog</a></li>
+				<li><a href="/projects.html">projects</a></li>
+				<li><a href="/about_me.html">about me</a></li>
+				<li class="spacer"><a href="/archive.html">archive</a></li>
+				<li class="spacer"><a href="https://github.com/MalphasWats">github</a></li>
+			</ul>
+		</nav>
+	</aside>
+	
+	<section id="articles">
+	{{ content }}
+	</section>
+</section>
+
+<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

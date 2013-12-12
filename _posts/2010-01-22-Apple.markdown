@@ -1,0 +1,16 @@
+---
+layout: post
+title: Apple
+---
+
+#{{ page.title }}
+
+Tycho [wrote a little something][PA] about the Apple Tablet on Penny Arcade.
+
+For me, Apple flew under my radar until they released the iPhone, it was my first Apple product and has so far been my last for the single reason of price.
+
+I love this paragraph from the above, I think it epitomises where Apple have brought themselves:
+
+> It's got to be so annoying to compete with Apple, at anything really, because it's not like they're doing something fucking crazy. Everybody's had these ideas before. The difference, and this is grim if you are a competitor, but the difference is that everyone else spends a lot of time (and often, money) determining why those things aren't possible. And then it comes out, for real, only you didn't make it.  Some other guys did.  And when you come out with what is (on paper) a better version of the same thing, maybe even multiple times over, it's too late.  You made a "product" to compete with their "product," tastefully arranging your regiment, only to discover that they hadn't made a product at all - they made a narrative.  A statement about how technology should interface with a life.
+
+[PA]: http://www.penny-arcade.com/2010/1/22/

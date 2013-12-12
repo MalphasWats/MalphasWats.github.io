@@ -1,0 +1,10 @@
+---
+layout: post
+title: Creation
+---
+
+#{{ page.title }}
+
+![Faern](http://subdimension.co.uk/files/1/images/faern.png) It occurs to me that I haven't 'created' anything for some time. My website is largely stagnant and my iPhone applications sit half-finished.
+
+I wonder how much this has to do with the fact that I [started playing World of Warcraft again](http://eu.wowarmory.com/character-sheet.xml?r=Draenor&cn=Faern) a month or so ago...

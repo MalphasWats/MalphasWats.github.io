@@ -1,0 +1,20 @@
+---
+layout: post
+title: Hacking
+---
+
+#{{ page.title }}
+
+[Hacking Your Bank](http://snosoft.blogspot.com/2010/04/hacking-your-bank.html)
+
+> We started the screening call with the standard meet and greet, and an explanation of why we were interested in the opportunity. Once we felt that the conversation was flowing smoothly, we began to dig in a bit and start asking various technology questions. In doing so, we learned what Anti-Virus technologies were in use and we also learned what the policies were for controlling outbound network traffic.
+
+> That’s all that we needed…
+
+This is really interesting - I came to this post via [a link](http://www.theregister.co.uk/2010/04/28/myspace_personal_injury_suit/) from the register that suggested it was Facebook profiles that leaked the crucial details required. Actually, when you read the story, all that really did was make identifying the names of people a little quicker - they actually got most of what they needed from a job interview!
+
+The most interesting part is:
+
+> we decided that the ideal scenario for stealth penetration would be to embed an exploit into a PDF document
+
+Adobe really need to up their game.

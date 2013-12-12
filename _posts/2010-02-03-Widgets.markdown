@@ -1,0 +1,20 @@
+---
+layout: post
+title: Widgets
+---
+
+#{{ page.title }}
+
+[Widgets on iPhone 4.0 OS][LINK]
+
+![Home Screen](/files/1/images/home_screen.jpg) 
+
+> Is it just me, or does it look like something is missing [from the home screen]?
+
+I felt exactly the same about the iPad home screen, it just doesn't look quite right, the spacing of the app icons is too much relative to their size.
+
+Widgets would go a long way to 'solving' the multitasking 'problem', given the right limitations by the OS, they wouldn't negatively impact the user experience - I'd be happy with a little status indicator for my chosen IM app that alerts me that someone has sent me a message and lets me either shoot off a quick reply or launch the full app to join a conversation.
+
+Perfect.
+
+[LINK]: http://spritely.wordpress.com/2010/01/29/os4widgets/

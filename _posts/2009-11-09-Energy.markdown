@@ -1,0 +1,25 @@
+---
+layout: post
+title: Energy
+---
+
+#{{ page.title }}
+
+I read an interesting book about energy and the world's worrying lack of it a while ago.
+
+[Without Hot Air][WHA]
+
+The author takes us through a fairly credible back-of-the-envelope analysis of our energy needs. Discussion centres around the UK and covers replacing our coal-based energy infrastructure with renewable sources of energy.
+
+It was certainly eye-opening reading, I've long been suspicious of the government's "Don't leave your TVs on standby" propaganda. I fully understand that there is a coming crisis, and certainly we shouldn't be wasting energy but solutions are never going to come from individuals, it *must* come from action by countries and new science.
+
+It seems the biggest thing most of us can do to make a difference is stop travelling by air (for me this is an easy option - I love flying but the whole Airport Experience leaves me cold and angry. I haven't flown for 2 years).
+
+The part in the book about [Geothermal energy][GEO] was particularly interesting. I got quite excited about Geothermal when I realised you can dig a few holes in your garden and heat your house for free (ok, kind of free, plus a little bit of electricity for pumps). I hadn't quite scaled it up to huge population-based power stations sucking all the heat from the earth leaving an icy crust behind.
+
+It's humbling to consider the huge expenditure of energy involved in transporting food and clothing, things humans need for survival (although maybe *not* sourced from all 4 corners of the world), that's before you start thinking about the components that make up my very fancy laptop.
+
+Call me selfish, but I'm going to continue indulging my self in the convenience of leaving my television on standby, satisfied that my energy-saving lightbulbs, lack of air-travel and modified driving style will have no effect whatsoever on the coming energy apocalypse!
+
+[WHA]: http://www.withouthotair.com/
+[GEO]: http://www.inference.phy.cam.ac.uk/withouthotair/c16/page_96.shtml

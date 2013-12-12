@@ -1,0 +1,16 @@
+---
+layout: post
+title: New Blog
+---
+
+#{{ page.title }}
+
+I've had this website for quite some time now. In that time I've hosted various different blogs, all of my own creation.
+
+I enjoy the challenge of developing my own systems, generally I get them to the point where I can talk about what I'm doing, I tinker with it for a while, then I run out of interesting things to say.
+
+I wanted this one to be a little different - it's not nearly finished yet, but the plan is to just have somewhere I can upload stuff to - photos, ideas, all that kind of stuff.
+
+I imagine I'll keep using it and updating it for as long as I perceive that my design remains fashionable. Then I'll probably pull it all down and start again!
+
+All good fun though, it's not like I have any readers or anything (and besides, I haven't finished the comments system yet so I'd never know it if I did!).
