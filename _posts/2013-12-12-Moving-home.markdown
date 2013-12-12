@@ -14,3 +14,4 @@ Things I still need to do:
 - Implement some kind of search system
 - Trawl for broken links
 - Write a Python module for publishing posts right out of [Editorial](http://omz-software.com/editorial/)
+- I also need to fix the way posts are displayed in the RSS Feed!
