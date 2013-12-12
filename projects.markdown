@@ -3,8 +3,6 @@ layout: page
 title: Projects
 ---
 
-#{{ page.title }}
-
 I keep all of my projects on [GitHub](https://github.com/MalphasWats). These are my favourites.
 
 ## Instruments

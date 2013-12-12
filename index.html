@@ -5,6 +5,11 @@ title: Home
 
 {% for post in site.posts limit:10 %}
 <article>
+        {% unless post.link %}
+        <h1>{{post.title}}</h1>
+        {% else %}
+        <h1><a href="{{post.link}}">{{post.title}}</a></h1>
+        {% endunless %}
         {{post.content}}
         
         <p class="byline">Posted by Mike Watts On {{ post.date | date_to_string }} | <a href="{{post.url}}">permalink</a></p>

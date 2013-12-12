@@ -1,9 +1,7 @@
 ---
 layout: page
-title: about me
+title: About me
 ---
-
-#{{ page.title }}
 
 Hi, my name is Mike Watts, I live in the UK with my Wife and son. I'm an ICT Teacher at a local mixed comprehensive school and I am very much a geek. When I'm not planning lessons I like tinkering with internet things and taking photos.
 
