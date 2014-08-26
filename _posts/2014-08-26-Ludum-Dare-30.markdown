@@ -1,0 +1,56 @@
+---
+layout: post
+title: Ludum Dare 30
+date: 2014-08-26
+---
+This weekend I took part in [Ludum Dare][LD], the build-a-game-in-48-hours competition.
+
+The theme this time was Connected Worlds. I had an idea fairly early on - Scientist (Rodney) accidently opens a portal to another world, gets stuck and has to try to find his way home. Definitely not original, but it was a start.
+
+[My Entry][ENTRY] was built using HTML5 Canvas & Javascript, using a few simple frameworks:
+
+* [JawsJS][JAWS] - Really nice, simple 2D game framework
+* [Howler.js][HOWL] - Clever HTML5 audio library
+
+I was particularly pleased to be able to use some of the pathfinding features in Jaws that I contributed a while back too!
+
+Overall I was pleased with my finished product. It wasn't quite as ambitious as I had planned for but I finished it and it makes some kind of sense.
+
+## Things I was pleased with
+
+**Random world generation** - I used a Cellular Automaton algorithm that I'd been exploring earlier in the year with one of my A-level classes. It took quite a bit of tuning to get it to generate useful worlds, namely due to the Javascript random number generator, it seems to cluster > 0.5. I might do a little more research into that later.
+
+**Enemy AI** - It's laughable to call it AI really, the Bat Fiends look around, if they see Rodney they move to intercept. But it really worked. It looks really cool when you walk into a new void area and a whole flock of Bat Fiends come chasing out of some side corridor after you. It's the little things.
+
+**Art** - I am no artist, but I've been developing my pixel art skills over the last year or so and I was actually pretty pleased with the result:
+
+![Rodney the Scientist][RODNEY]
+
+The bat fiends were pretty simple, but cool looking:
+
+![Bat Fiend][BAT]
+
+## Things not so pleased with
+
+**Sound** - [Howler][HOWL] turned out to be brilliant, really easy to use and just worked. My ability to create sound effects however needs **much** development. Music I completely failed with, no idea where to start. Definitely an area to work on for next time.
+
+**Animation** - I definitely need to work on my walk cycles!
+
+**Fun** - I'm not completely convinced that the game is actually much fun. It was quite cool when 3 or 4 portals in, I found myself tunneling through the walls to get around instead of walking through open areas because there were so many bat fiends, but I'm not sure it had much lasting appeal.
+
+## Bottom line
+
+I had a lot of fun working on this. Technically, I'm quite pleased with it, but conceptually, it could be better - I think I need to spend the next few months playing as many computer games as possible to get a better idea of what makes them *fun*.
+
+Things to work on:
+
+* Musical composition skills
+* LIGHTING!
+* **ISOMETRIC** :)
+
+[LD]: http://www.ludumdare.com/compo/
+[ENTRY]: http://games.subdimension.co.uk/LD30/
+[JAWS]: https://github.com/ippa/jaws
+[HOWL]: https://github.com/goldfire/howler.js
+[RODNEY]: /files/images/LD30_Rodney.gif
+[BAT]: /files/images/LD30_bat_fiend.gif
