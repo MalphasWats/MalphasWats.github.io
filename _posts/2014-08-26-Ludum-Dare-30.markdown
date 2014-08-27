@@ -52,5 +52,5 @@ Things to work on:
 [ENTRY]: http://games.subdimension.co.uk/LD30/
 [JAWS]: https://github.com/ippa/jaws
 [HOWL]: https://github.com/goldfire/howler.js
-[RODNEY]: /files/images/LD30_Rodney.gif
-[BAT]: /files/images/LD30_bat_fiend.gif
+[RODNEY]: http://www.subdimension.co.uk/files/images/LD30_Rodney.gif
+[BAT]: http://www.subdimension.co.uk/files/images/LD30_bat_fiend.gif
