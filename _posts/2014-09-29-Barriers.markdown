@@ -1,0 +1,37 @@
+---
+layout: post
+title: Barriers
+date: 2014-09-29
+---
+
+I made a discovery this weekend. It has taken me almost a year to make the realisation but it 
+was striking when I noticed:
+
+![Archive Screenshot][ARCHIVE]
+
+I've never been a particularly prolific blogger, but 2014 is easily one of my worst years yet.
+
+It's no co-incidence either that the last post of 2013 was about me moving my blog to GitHub. 
+In moving it to GitHub I created a barrier to making posts. 
+
+Previously, I've always built my own blogging engines and they have always come with web-based 
+front-ends for managing and posting articles. I could quickly navigate to my blog, log into the 
+control panel and post an article.
+
+The workflow for posting an article from GitHub is really not that difficult but it adds a few 
+small extra steps that act as barriers to me actually bothering to do it and it's a real shame.
+
+[I have a solution][BURBLE]. It's still in progress but the primary functionality is already in
+place - Burble is a [microblog][microblog] hosted on GitHub as a GitHub Pages site that includes
+a basic Javascript based editor. The editor uses the GitHub API to make posts directly into the
+repository, completely bypassing the need to fire up an editor, sync or clone the repository,
+generating the file with the right name, writing it, committing it back etc etc.
+
+I have some bigger plans for Burble itself, but once I have got the editor working fully (currently
+it only allows the posting of new 'blurbs', no editing or deleting), I will be able to use it to
+manage my main gh-pages hosted site (this one!). I'm quite excited about both projects, which will
+hopefully inspire me to write about them a little more.
+
+[ARCHIVE]: http://www.subdimension.co.uk/files/images/blog_archive_sept2014.gif
+[BURBLE]: https://github.com/MalphasWats/burble/tree/gh-pages
+[microblog]: http://www.subdimension.co.uk/burble/
