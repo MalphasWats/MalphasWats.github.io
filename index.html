@@ -6,9 +6,9 @@ title: Home
 {% for post in site.posts limit:10 %}
 <article>
     {% unless post.link %}
-    {% if post.title %}
+    {% unless post.layout == 'blurb' %}
     <h1>{{post.title}}</h1>
-    {% endif %}
+    {% endunless %}
     {% else %}
     <h1><a href="{{post.link}}">{{post.title}}</a></h1>
     {% endunless %}

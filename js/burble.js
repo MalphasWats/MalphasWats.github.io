@@ -339,7 +339,7 @@
         }
 		else
         {
-            var yaml = "---\nlayout: post\ntitle: "+time+"\ndate: "+date+" "+time+"\n---\n";
+            var yaml = "---\nlayout: blurb\ntitle: "+time+"\ndate: "+date+" "+time+"\n---\n";
 		
             var blurb = yaml + f.blurb.value.replace("<!-- files -->\n", '');
         
