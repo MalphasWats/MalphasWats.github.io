@@ -13,7 +13,9 @@ layout: nil
     <ttl>1440</ttl>
     {% for item in site.posts limit:12 %}
     <item>
+        {% unless item.layout == 'blurb' %}
         <title><![CDATA[{{item.title}}]]></title>
+        {% endunless %}
         {% unless item.link %}
         <link>http://www.subdimension.co.uk{{item.url}}</link>
         <guid>http://www.subdimension.co.uk{{item.url}}</guid>
