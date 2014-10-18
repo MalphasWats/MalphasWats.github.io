@@ -66,7 +66,7 @@
                     var b = document.getElementById('burble');
                     var f = b.getElementsByTagName('form')[0];
                     
-                    post.content = atob(post.content);
+                    post.content = atob(post.content.replace(/\n/g, ''));
                     var i = post.content.indexOf("---", 3);
                     
                     var post_content = post.content.substr(i+4);
@@ -190,6 +190,13 @@
 			
 			f.appendChild(u);
 			
+			var p = document.createElement('a');
+			p.href='#';
+			p.innerHTML = 'full post';
+			p.addEventListener('click', burble.toggle_full_post)
+			
+			f.appendChild(p);
+			
 			var c = document.createElement('span');
 			c.innerHTML = '0';
 			f.appendChild(c);
@@ -230,6 +237,42 @@
         a.removeEventListener('click', burble.expand_compose_panel);
         a.innerHTML = 'cancel';
         a.addEventListener('click', burble.collapse_compose_panel);
+    }
+    
+    Burble.prototype.toggle_full_post = function(e)
+    {
+        e.preventDefault();
+        
+        if (this.innerHTML == 'full post')
+        {
+        
+            var b = document.getElementById('burble');
+            var a = b.firstChild;
+            var f = a.nextSibling;
+            
+            var i = burble.create_text_input('title', 'Title');
+            i.size = 50;
+            
+            f.blurb.cols = 50;
+            f.blurb.rows = 20;
+            
+            f.insertBefore(i, f.firstChild);
+            
+            this.innerHTML = 'blurb';
+        }
+        else
+        {
+            var b = document.getElementById('burble');
+            var a = b.firstChild;
+            var f = a.nextSibling;
+            
+            f.removeChild(f.title);
+            
+            f.blurb.cols = 35;
+            f.blurb.rows = 6;
+            
+            this.innerHTML = 'full post';
+        }
     }
     
     Burble.prototype.collapse_compose_panel = function(e)
@@ -339,11 +382,21 @@
         }
 		else
         {
-            var yaml = "---\nlayout: blurb\ntitle: "+time+"\ndate: "+date+" "+time+"\n---\n";
+            if (f.title && f.title.value != '')
+            {
+                var yaml = "---\nlayout: post\ntitle: "+f.title.value+"\ndate: "+date+" "+time+"\n---\n";
+                var fn_title = f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
+                var filename = "_posts/"+date+"-"+fn_title+".markdown";
+            }
+            else
+            {
+                var yaml = "---\nlayout: blurb\ntitle: "+time+"\ndate: "+date+" "+time+"\n---\n";
+                var filename = "_posts/"+date+"-"+time.replace(/:/g, "")+".markdown";
+            }
 		
             var blurb = yaml + f.blurb.value.replace("<!-- files -->\n", '');
         
-            var filename = "_posts/"+date+"-"+time.replace(/:/g, "")+".markdown";
+            
             var sha = false;
         }
 		
@@ -370,7 +423,7 @@
 				
 				burble.put(data, url);
 			}.bind(f.files.files[i]));
-			r.readAsDataURL(f.files.files[i])
+			r.readAsDataURL(f.files.files[i]);
 		}
 		
 		var data = {
@@ -386,8 +439,8 @@
             data.sha = sha;
             data.message = 'Edit post';
         }
-		
-		burble.put(data, url, function()
+        
+        burble.put(data, url, function()
 		{
 			burble.collapse_compose_panel(e);
 					
