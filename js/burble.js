@@ -473,7 +473,7 @@
 			i.src="style/assets/indicator.gif";
 			p.appendChild(i);
 			
-			var b = document.getElementById('blurbs');
+			var b = document.getElementById('articles');
 			b.insertBefore(p, b.firstChild);
 			
 			setTimeout(function()
