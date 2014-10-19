@@ -467,15 +467,14 @@
 					branch: 'master',
 					committer: {name: localStorage.github_username, email: localStorage.github_email}
 				};
-				console.log(data.path)
-				//burble.put(data, url);
+				burble.put(data, url);
 			}.bind(f.files.files[i]));
 			r.readAsDataURL(f.files.files[i]);
 		}
 		
 		var data = {
 			path: filename,
-			content: blurb, //btoa(blurb),
+			content: btoa(blurb),
 			message: 'New post',
 			branch: 'master',
 			committer: {name: localStorage.github_username, email: localStorage.github_email}
@@ -486,8 +485,8 @@
             data.sha = sha;
             data.message = 'Edit post';
         }
-        console.log(data)
-        /*burble.put(data, url, function()
+        
+        burble.put(data, url, function()
 		{
 			burble.collapse_compose_panel(e);
 					
@@ -504,7 +503,7 @@
 			{
 				document.location.reload(true);
 			}, 8000);
-		});*/
+		});
     }
     
     Burble.prototype.create_text_input = function(id, label)
