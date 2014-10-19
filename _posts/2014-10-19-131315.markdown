@@ -1,0 +1,8 @@
+---
+layout: blurb
+title: 13:13:15
+date: 2014-10-19 13:13:15
+---
+3 word film review
+
+A Million Ways to Die in the West: "Silly but funny".
