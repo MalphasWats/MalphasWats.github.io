@@ -6,5 +6,5 @@ layout: default
         
         {{ content }}
         
-        <p class="byline">Posted by Mike Watts On {{ page.date | date_to_string }} | <a href="{{page.url}}">permalink</a></p>
+        <p class="byline">Posted by Mike Watts On <a href="{{page.url}}" title="permalink">{{ page.date | date: "%a, %d %B %Y %T" }}</a></p>
     </article>
