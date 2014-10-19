@@ -11,7 +11,7 @@ layout: nil
     <language>en-GB</language>
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
     <ttl>1440</ttl>
-    {% for item in site.posts limit:12 %}
+    {% for item in site.posts limit:16 %}
     <item>
         {% unless item.layout == 'blurb' %}
         <title><![CDATA[{{item.title}}]]></title>
