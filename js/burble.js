@@ -61,7 +61,7 @@
                 var f = b.getElementsByTagName('form')[0];
                 
                 f.blurb_date.value = ts_part.substr(0, 10);
-                f.blurb_time.value = ts_part.substr(11, 2) + ':' + ts_part.substr(13, 2) + ':' + ts_part.substr(15, 2);
+                //f.blurb_time.value = ts_part.substr(11, 2) + ':' + ts_part.substr(13, 2) + ':' + ts_part.substr(15, 2);
                 
                 burble.get(url, function(responseText)
                 {
@@ -85,12 +85,20 @@
                     
                     f.appendChild(yaml);
                     
+                    var i_t = post_yaml.indexOf('title:');
+                    var title = post_yaml.substring(i_t+6, post_yaml.indexOf('\n', i_t)).trim();
+                    
                     if (post_yaml.indexOf('layout: post') > -1)
                     {
                         burble.toggle_full_post();
-                        var i_t = post_yaml.indexOf('title:');
-                        f.title.value = post_yaml.substring(i_t+6, post_yaml.indexOf('\n', i_t)).trim();
+                        f.title.value = title
                         f.title.style.color = 'black';
+                        
+                        f.blurb_time.value = post_yaml.match(/\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}/)[0].substr(11);
+                    }
+                    else
+                    {
+                        f.blurb_time.value = title;
                     }
                     
                     var path = document.createElement('input');
@@ -195,7 +203,15 @@
 					{
 						f.blurb.value  += '!';
 					}
-					f.blurb.value  += '['+f.files.files[i].name+'](' + document.location.href + 'files/' + f.blurb_date.value + '-' + f.blurb_time.value.replace(/:/g, "") + '/' + f.files.files[i].name + ')\n';
+					if (f.title)
+					{
+    					var t = '%%TITLE%%';
+					}
+					else
+					{
+    					var t = f.blurb_time.value.replace(/:/g, "");
+					}
+					f.blurb.value  += '['+f.files.files[i].name+'](' + document.location.href + 'files/' + f.blurb_date.value + '-' + t + '/' + f.files.files[i].name + ')\n';
 				}
 			});
 			
@@ -397,9 +413,14 @@
             {
                 var i_t = yaml.indexOf('title:');
                 var i_n = yaml.indexOf('\n', i_t);
-                yaml = yaml.substring(0, i_t+6) + ' ' + f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-') + yaml.substring(i_n);
+                
+                yaml = yaml.substring(0, i_t+6) + ' ' + f.title.value + yaml.substring(i_n);
             }
-            var blurb = yaml + f.blurb.value.replace("<!-- files -->\n", '');
+            var i_t = yaml.indexOf('title:');
+            var fn_title = yaml.substring(i_t+6, yaml.indexOf('\n', i_t)).trim().replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
+            var content = f.blurb.value.replace("<!-- files -->\n", '');
+            content = content.replace(/%%TITLE%%/g, fn_title);
+            var blurb = yaml + content;
             var filename = f.path.value;
             var sha = f.sha.value;
         }
@@ -414,10 +435,13 @@
             else
             {
                 var yaml = "---\nlayout: blurb\ntitle: "+time+"\ndate: "+date+" "+time+"\n---\n";
-                var filename = "_posts/"+date+"-"+time.replace(/:/g, "")+".markdown";
+                var fn_title = time.replace(/:/g, "")
+                var filename = "_posts/"+date+"-"+fn_title+".markdown";
             }
-		
-            var blurb = yaml + f.blurb.value.replace("<!-- files -->\n", '');
+            
+            var content = f.blurb.value.replace("<!-- files -->\n", '');
+            content = content.replace(/%%TITLE%%/g, fn_title);
+            var blurb = yaml + content;
         
             
             var sha = false;
