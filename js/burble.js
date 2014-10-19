@@ -418,7 +418,7 @@
                 yaml = yaml.substring(0, i_t+6) + ' ' + f.title.value + yaml.substring(i_n);
             }
             var i_t = yaml.indexOf('title:');
-            fn_title = yaml.substring(i_t+6, yaml.indexOf('\n', i_t)).trim().replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
+            fn_title = yaml.substring(i_t+6, yaml.indexOf('\n', i_t)).trim().replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-').toLowerCase();
             var content = f.blurb.value.replace("<!-- files -->\n", '');
             content = content.replace(/%%TITLE%%/g, fn_title);
             var blurb = yaml + content;
@@ -430,7 +430,7 @@
             if (f.title && f.title.value != '')
             {
                 var yaml = "---\nlayout: post\ntitle: "+f.title.value+"\ndate: "+date+" "+time+"\n---\n";
-                fn_title = f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
+                fn_title = f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-').toLowerCase();
                 var filename = "_posts/"+date+"-"+fn_title+".markdown";
             }
             else
