@@ -405,6 +405,7 @@
         
         var time = f.blurb_time.value;
         var date = f.blurb_date.value;
+        var fn_title = time.replace(/:/g, "");
         
         if (f.path && f.sha)
         {
@@ -417,7 +418,7 @@
                 yaml = yaml.substring(0, i_t+6) + ' ' + f.title.value + yaml.substring(i_n);
             }
             var i_t = yaml.indexOf('title:');
-            var fn_title = yaml.substring(i_t+6, yaml.indexOf('\n', i_t)).trim().replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
+            fn_title = yaml.substring(i_t+6, yaml.indexOf('\n', i_t)).trim().replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
             var content = f.blurb.value.replace("<!-- files -->\n", '');
             content = content.replace(/%%TITLE%%/g, fn_title);
             var blurb = yaml + content;
@@ -429,13 +430,12 @@
             if (f.title && f.title.value != '')
             {
                 var yaml = "---\nlayout: post\ntitle: "+f.title.value+"\ndate: "+date+" "+time+"\n---\n";
-                var fn_title = f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
+                fn_title = f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-');
                 var filename = "_posts/"+date+"-"+fn_title+".markdown";
             }
             else
             {
                 var yaml = "---\nlayout: blurb\ntitle: "+time+"\ndate: "+date+" "+time+"\n---\n";
-                var fn_title = time.replace(/:/g, "")
                 var filename = "_posts/"+date+"-"+fn_title+".markdown";
             }
             
@@ -451,7 +451,7 @@
 		
 		for (var i=0 ; i<f.files.files.length ; i++)
 		{
-			f.files.files[i].folder = "files/"+date+"-"+time.replace(/:/g, "");
+			f.files.files[i].folder = "files/"+date+"-"+fn_title;
 			var r = new FileReader();
 			r.addEventListener('load', function(e)
 			{
@@ -467,15 +467,15 @@
 					branch: 'master',
 					committer: {name: localStorage.github_username, email: localStorage.github_email}
 				};
-				
-				burble.put(data, url);
+				console.log(data.path)
+				//burble.put(data, url);
 			}.bind(f.files.files[i]));
 			r.readAsDataURL(f.files.files[i]);
 		}
 		
 		var data = {
 			path: filename,
-			content: btoa(blurb),
+			content: blurb, //btoa(blurb),
 			message: 'New post',
 			branch: 'master',
 			committer: {name: localStorage.github_username, email: localStorage.github_email}
@@ -486,8 +486,8 @@
             data.sha = sha;
             data.message = 'Edit post';
         }
-        
-        burble.put(data, url, function()
+        console.log(data)
+        /*burble.put(data, url, function()
 		{
 			burble.collapse_compose_panel(e);
 					
@@ -504,7 +504,7 @@
 			{
 				document.location.reload(true);
 			}, 8000);
-		});
+		});*/
     }
     
     Burble.prototype.create_text_input = function(id, label)
