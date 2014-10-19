@@ -34,12 +34,15 @@
     
     Burble.prototype.add_edit_links = function()
     {
-        var permalinks = document.getElementsByClassName('blurb_date');
+        var permalinks = document.getElementsByClassName('byline');
+        var regex_path = /\d{4}\/\d{2}\/\d{2}\/[a-zA-Z\d-]+/;
+        var regex_slash = /\//g;
         for (var i=0 ; i<permalinks.length ; i++)
         {
             var url = permalinks[i].getElementsByTagName('a')[0].href;
             var a = document.createElement('a');
-            a.href = '#' + url.substring(url.indexOf('/burble/')+8, url.indexOf('.html')).replace(/\//g, '-');
+            var fn = url.match(regex_path);
+            a.href = '#' + fn[0].replace(regex_slash, '-');
             a.innerHTML = 'edit';
             
             a.addEventListener('click', function(e)
@@ -81,6 +84,14 @@
                     yaml.value = post_yaml;
                     
                     f.appendChild(yaml);
+                    
+                    if (post_yaml.indexOf('layout: post') > -1)
+                    {
+                        burble.toggle_full_post();
+                        var i_t = post_yaml.indexOf('title:');
+                        f.title.value = post_yaml.substring(i_t+6, post_yaml.indexOf('\n', i_t)).trim();
+                        f.title.style.color = 'black';
+                    }
                     
                     var path = document.createElement('input');
                     path.type = 'hidden';
@@ -241,9 +252,14 @@
     
     Burble.prototype.toggle_full_post = function(e)
     {
-        e.preventDefault();
+        if (e) e.preventDefault();
         
-        if (this.innerHTML == 'full post')
+        var b = document.getElementById('burble');
+        var f = b.getElementsByTagName('form')[0];
+        
+        var toggle_link = f.getElementsByTagName('a')[0];
+        
+        if (toggle_link.innerHTML == 'full post')
         {
         
             var b = document.getElementById('burble');
@@ -258,7 +274,7 @@
             
             f.insertBefore(i, f.firstChild);
             
-            this.innerHTML = 'blurb';
+            toggle_link.innerHTML = 'blurb';
         }
         else
         {
@@ -271,7 +287,7 @@
             f.blurb.cols = 35;
             f.blurb.rows = 6;
             
-            this.innerHTML = 'full post';
+            toggle_link.innerHTML = 'full post';
         }
     }
     
@@ -376,7 +392,14 @@
         
         if (f.path && f.sha)
         {
-            var blurb = f.yaml.value + f.blurb.value.replace("<!-- files -->\n", '');
+            var yaml = f.yaml.value;
+            if (f.title)
+            {
+                var i_t = yaml.indexOf('title:');
+                var i_n = yaml.indexOf('\n', i_t);
+                yaml = yaml.substring(0, i_t+6) + ' ' + f.title.value.replace(/[^a-zA-Z\d\s:]/g, '').trim().replace(/\s/g, '-') + yaml.substring(i_n);
+            }
+            var blurb = yaml + f.blurb.value.replace("<!-- files -->\n", '');
             var filename = f.path.value;
             var sha = f.sha.value;
         }
