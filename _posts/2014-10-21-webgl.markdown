@@ -1,0 +1,15 @@
+---
+layout: post
+title: WebGL
+date: 2014-10-21 08:38:01
+---
+I'm at the very early stages of learning and working with web-gl. Now that Apple has added support for it in Mobile Safari it's something that I can get excited about.
+
+Now that I've made it much easier to post and edit blog stuff, I can write a bit more. For now though, this will be a kind of living blog post where I can collect links to the stuff I find.
+
+* [WebGL Fundamentals](http://games.greggman.com/game/webgl-fundamentals/)
+* [Getting started with WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL/Getting_started_with_WebGL)
+* [WebGL pre-tutorial](http://my2iu.blogspot.co.uk/2011/11/webgl-pre-tutorial-part-1.html)
+* [An Introduction to WebGL](https://dev.opera.com/articles/introduction-to-webgl-part-1/)
+
+Ultimately, I'd like to produce a simple javascript library that's as easy to use as [Jaws.js](http://jawsjs.com/), starting with 2d as it's the performance increase that I'm interested in.
