@@ -5,7 +5,7 @@ date: 2014-10-21 08:38:01
 ---
 I'm at the very early stages of learning and working with web-gl. Now that Apple has added support for it in Mobile Safari it's something that I can get excited about.
 
-Now that I've made it much easier to post and edit blog stuff, I can write a bit more. For now though, this will be a kind of living blog post where I can collect links to the stuff I find.
+I've made it much easier for myself to post and edit blog stuff, I can write a bit more. For now though, this will be a kind of living blog post where I can collect links to the stuff I find.
 
 * [WebGL Fundamentals](http://games.greggman.com/game/webgl-fundamentals/)
 * [Getting started with WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL/Getting_started_with_WebGL)
