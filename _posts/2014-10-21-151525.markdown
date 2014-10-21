@@ -1,0 +1,6 @@
+---
+layout: blurb
+title: 15:15:25
+date: 2014-10-21 15:15:25
+---
+[Valve pulls game after developer makes death threats](http://www.eurogamer.net/articles/2014-10-21-valve-pulls-game-from-steam-following-devs-tweet-threatening-gabe-newell) - Actions have consequences people.
