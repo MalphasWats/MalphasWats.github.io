@@ -8,11 +8,11 @@ title: Home
 <article id="{{p_count}}">
     {% unless post.link %}
     {% unless post.layout == 'blurb' %}
+    {% assign p_count = p_count | plus: 1 %}
+    {{p_count}}
     <h1>{{post.title}}</h1>
     {% endunless %}
     {% else %}
-    {% assign p_count = p_count | plus: 1 %}
-    {{p_count}}
     <h1><a href="{{post.link}}">{{post.title}}</a></h1>
     {% endunless %}
     {{post.content}}
