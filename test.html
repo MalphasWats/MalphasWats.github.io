@@ -1,0 +1,24 @@
+---
+layout: default
+title: Home
+---
+{% assign p_count = 0 %}
+{% for post in site.posts limit:12 %}
+{% if p_count < 10 %}
+<article id="{{p_count}}">
+    {% unless post.link %}
+    {% unless post.layout == 'blurb' %}
+    <h1>{{post.title}}</h1>
+    {% endunless %}
+    {% else %}
+    {% assign p_count = p_count | plus: 1 %}
+    {{p_count}}
+    <h1><a href="{{post.link}}">{{post.title}}</a></h1>
+    {% endunless %}
+    {{post.content}}
+    
+    <p class="byline">Posted by Mike Watts On <a href="{{post.url}}" title="permalink">{% if post.layout == 'blurb' %}{{ post.date | date: "%a, %d %B %Y %T" }}{% else %}{{ post.date | date_to_string }}{% endif %}</a></p>
+        
+</article>
+{% endif %}
+{% endfor %}
