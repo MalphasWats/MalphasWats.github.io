@@ -7,15 +7,6 @@ I spent last week in the New Forest with my family. Apparently this year is a ve
 
 Click for full size.
 
-<style type="text/css">
-.mini_gallery {overflow:auto;}
-.mini_gallery img
-{
-    float:left;
-    margin:0px;
-}
-</style>
-
 <p class="mini_gallery">
 <a href="http://www.subdimension.co.uk/files/2014-11-07-Fungi/IMG_1479.jpg"><img src="http://www.subdimension.co.uk/files/2014-11-07-Fungi/thumbs/IMG_1479.jpg" alt=""></a>
 <a href="http://www.subdimension.co.uk/files/2014-11-07-Fungi/IMG_1480.jpg"><img src="http://www.subdimension.co.uk/files/2014-11-07-Fungi/thumbs/IMG_1480.jpg" alt=""></a>

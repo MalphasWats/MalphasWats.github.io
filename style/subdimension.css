@@ -239,3 +239,11 @@ th
 	background:#829f14;
 	color:white;
 }
+
+.mini_gallery {overflow:auto;}
+.mini_gallery img
+{
+    float:left;
+    margin:0px;
+}
+
