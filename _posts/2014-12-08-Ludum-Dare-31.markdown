@@ -1,0 +1,31 @@
+---
+layout: post
+title: Ludum Dare 31
+date: 2014-12-08 10:30
+---
+Sadly I wasn't able to participate in Ludum Dare 31.
+
+I thought the theme was interesting. I know there were some complaints that it
+was overly specific and made 3D games harder or impossible. It was actually one
+of the themes that I voted for though because I thought it would be fun.
+
+When I woke up and found out that was the winner, I immediately had the idea of
+doing a classic platformer with multiple levels all visible on the screen at once.
+I notice today as people start submitting that there are a few other people who had
+the same idea and they do look awesome!
+
+* [Rescue the princess](http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=41150)
+* [Scramble Slug](http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=3553)
+
+are two that I've seen so far. I love the idea!
+
+I got as far on Saturday as making a little 8-pix character, Henry:
+
+![Henry](http://www.subdimension.co.uk/files/2014-12-08-Ludum-Dare-31/henry.gif)
+
+My plan was to set up as many 64x64 levels as I could all joined together, with 
+puzzles or bosses to defeat to unlock the door to the next space.
+
+Alas, I was unable to do it. I might play around with the idea, but with so little time
+to do much of anything these days, Henry's dreams of rescuing his dragon will likely remain
+forever unrealised. Poor Henry.
