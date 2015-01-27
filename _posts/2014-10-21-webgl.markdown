@@ -13,3 +13,7 @@ I've made it much easier for myself to post and edit blog stuff. This can be a k
 * [An Introduction to WebGL](https://dev.opera.com/articles/introduction-to-webgl-part-1/)
 
 Ultimately, I'd like to produce a simple javascript library that's as easy to use as [Jaws.js](http://jawsjs.com/), starting with 2d as it's the performance increase that I'm interested in.
+
+Update 2015-01-27: I made one! [glixl][GLIXL] is a 2D tile/sprite library for WebGL.
+
+[GLIXL]: https://github.com/MalphasWats/glixl
