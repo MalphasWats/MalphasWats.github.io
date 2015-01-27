@@ -50,7 +50,7 @@ I've started making a simple game, [Dojo Master][DOJOMASTER]. to test it too, wh
 [POST]: http://www.subdimension.co.uk/2014/10/21/webgl.html
 [JAWS]: http://jawsjs.com/
 [GLIXL_TEST]: http://games.subdimension.co.uk/webgl/unoptimized.html
-[GLIXL_TEST]: http://games.subdimension.co.uk/webgl/optimized.html
+[SPRITEBUCKET]: http://games.subdimension.co.uk/webgl/optimized.html
 [STACKOVERFLOW]: http://stackoverflow.com/questions/27905214/why-is-my-simple-webgl-demo-so-slow
 [LD30]: http://games.subdimension.co.uk/LD30/
 [GLIXL]: https://github.com/MalphasWats/glixl
