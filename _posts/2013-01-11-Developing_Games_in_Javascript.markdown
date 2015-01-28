@@ -26,4 +26,4 @@ My first game is still very much in progress, and it represents the absolute zen
 [LD25]: http://www.ludumdare.com/compo/ludum-dare-25/?action=top&cat=Overall
 [JSLIBS]: https://gist.github.com/768272
 [JAWS]: https://github.com/ippa/jaws
-[ROUGE]: http://www.subdimension.co.uk/games/Rouge/
+[ROUGE]: http://games.subdimension.co.uk/Rouge/
