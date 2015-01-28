@@ -9,6 +9,7 @@ I keep all of my projects on [GitHub](https://github.com/MalphasWats). These are
 glixl is a Javascript framework for making 2D sprite & tile based games using WebGL.
 
 I'm working on a simple game using it too:
+
 [Dojo Master](http://games.subdimension.co.uk/DojoMaster/)
 
 ## [Burble](https://github.com/MalphasWats/burble)
