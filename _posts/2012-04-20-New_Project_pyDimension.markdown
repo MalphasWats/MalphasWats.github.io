@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Project: pyDimension
+title: "New Project: pyDimension"
 ---
 
 As I mentioned previously, I've always found PHP awkward to use but I'd always kind of put it into the whole "PHP is the worst web development language there is; apart from all the others" sort of a box.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RE: Chat Roulette
+title: RE Chat Roulette
 ---
 
 I tried it, I was judged, I judged.
