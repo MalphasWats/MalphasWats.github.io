@@ -3,9 +3,12 @@ layout: page
 title: About me
 ---
 
-Hi, my name is Mike Watts, I live in the UK with my Wife and son. I'm an ICT Teacher at a local mixed comprehensive school and I am very much a geek. When I'm not planning lessons I like tinkering with internet things and taking photos.
+Hi, my name is Mike Watts, I live in the UK with my wife, son and daughter. I'm an ICT Teacher at a local 
+mixed comprehensive school and I am very much a geek. When I'm not planning lessons I like tinkering with 
+internet things and taking photos.
 
-subdimension.co.uk is just a place where I can put the interesting things that I do and write the odd missive about the things that interest me.
+subdimension.co.uk is just a place where I can put the interesting things that I do and write the odd 
+missive about the things that interest me.
 
 I am more than happy to receive comments about anything here on this site. If you want to get in touch, you can use this address:
 
