@@ -1,0 +1,22 @@
+---
+layout: post
+title: Pictures
+date: 2015-03-03 09:00
+---
+
+I have been working on a site for [my photos][PICTURES] and other 'art' for ages now. I've *finally* added a link to
+the site in the sidebar.
+
+The site is hosted as a GitHub Pages site, I wanted something really simple but there were some challenges to overcome,
+chief of which was being able to post a photo directly from my iPhone. 
+
+I plan to write a post about the python app I wrote in Pythonista that uses the GitHub API to post pictures.
+
+Overall I'm happy with the simple design, although there are still some things I want to do:
+
+* Albums should display photos with their titles, rather than just the same as the stream
+* Load the stream as the page scrolls
+* Fill in the *About* page.
+
+
+[PICTURES]: http://pictures.subdimension.co.uk/
