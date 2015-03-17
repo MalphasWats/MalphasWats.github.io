@@ -1,0 +1,8 @@
+---
+layout: blurb
+title: 14:20:28
+date: 2015-03-17 14:20:28
+---
+Working on my Pixelling. Had an idea for a sort of Urban Survival game. Making graphics is hard though!
+
+![pixel_town.png](http://www.subdimension.co.uk/files/2015-03-17-142028/pixel_town.png)
