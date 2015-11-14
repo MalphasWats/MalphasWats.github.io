@@ -1,0 +1,8 @@
+---
+layout: blurb
+title: 10:13:50
+date: 2015-11-10 10:13:50
+---
+I bought myself a Genduino last week, so I thought I'd build a robot!
+
+![robot.jpg](http://www.subdimension.co.uk/files/2015-11-10-101350/robot.jpg)
