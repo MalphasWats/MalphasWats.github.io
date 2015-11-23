@@ -82,7 +82,7 @@ I'll probably write about some of those separately as I go.
 [QUAD]: http://engineer-this.com/Quadruped.shtml
 [BOB]: http://www.instructables.com/id/BoB-the-BiPed/
 [SWEEP]: https://www.arduino.cc/en/Tutorial/Sweep
-[IMG1]: http://www.subdimension.co.uk/files/2015-11-23-bipedal-robot/robot.jpg
-[IMG2]: http://www.subdimension.co.uk/files/2015-11-23-bipedal-robot/robot2.jpg
+[IMG1]: http://www.subdimension.co.uk/files/2015-11-23-Bipedal-Robot/robot.jpg
+[IMG2]: http://www.subdimension.co.uk/files/2015-11-23-Bipedal-Robot/robot2.jpg
 [CODEBENDER]: https://codebender.cc/
 [CODE]: https://codebender.cc/sketch:183719
