@@ -1,0 +1,6 @@
+---
+layout: blurb
+title: 18:54:13
+date: 2016-01-28 18:54:13
+---
+Made a feed for just blurbs to pipe into IFTTT so they post to Twitter automatically. Wonder if it works...
