@@ -3,4 +3,4 @@ layout: blurb
 title: 10:11:16
 date: 2016-02-06 10:11:16
 ---
-And now my blog has gone crazy!
+And now my blog has gone crazy! - edit, fixed it now.
