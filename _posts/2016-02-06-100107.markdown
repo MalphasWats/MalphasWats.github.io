@@ -1,0 +1,6 @@
+---
+layout: blurb
+title: 10:01:07
+date: 2016-02-06 10:01:07
+---
+Ok, so my weather app just caused my watch to crash and reboot...
