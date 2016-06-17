@@ -7,7 +7,7 @@ A little while ago I saw a [really cool project][GAMEBUINO] that got me really e
 about microprocessors and tinkering with hardware. I've been aware of the [Arduino project][ARDUINO]
 for a while but my limited grasp of resistors and capacitors was holding me back a little.
 
-A couple of weeks ago I caved and bought myself a [Genuino Uno ][UNO] and a basic starter kit from
+A couple of weeks ago I caved and bought myself a [Genuino Uno][UNO] and a basic starter kit from
 Amazon. Once I'd built a few of the tutorial circuits I started looking around for other projects to
 build; the Gamebuino project above is still a little beyond my skills but definitely something I want
 to work towards. Whilst looking around at the various things people do with their Arduinos I came across
