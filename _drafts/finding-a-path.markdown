@@ -46,6 +46,8 @@ Working within these kinds of limitations is a vastly underrated skill in my job
 
 This took quite a bit of time and marks an important milestone: I actually up and moved to Python 3, which took more effort to get installed on my work machine than I care to mention. *Technically* I got paid to write a game, so I'm an *actual* game developer now. Sweet!
 
+See also how I reused my wizard sprite from above, completely justifying the time I spent on Tuesday working on him!
+
 [JUMPY]: http://lessons.subdimension.co.uk/jumpy/
 
 ...
