@@ -55,5 +55,3 @@ This all took quite a bit of time and marks an important milestone: *I actually 
 
 [JUMPY]: http://lessons.subdimension.co.uk/jumpy/
 [ICON]: /files/2016-06-24-finding-a-path/pyicon.gif
-
-...
