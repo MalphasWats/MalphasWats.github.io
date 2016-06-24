@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finding a path
-date: 2016-06-24 09:00
+date: 2016-06-24 15:00
 ---
 
 Two posts in and I'm already displeased with *every* post being "Weekly Roundup", so I'll drop that part and try and come up with a clever title for each one (see, "finding a path" is *clever* because I've been working on path finding algorithms, but also I'm finding a path to writing more blog stuff. No? Nevermind.)
@@ -20,20 +20,23 @@ Which looks quite cute (if small!)
 
 I bought [Aseprite][ASEPRITE] this week after playing with the demo a bit, so I was able to use it to create the animation frames and I have to say I really like it. It has a quiet power that doesn't get in the way. Previously I've been using Adobe Fireworks, which I like, but it's so *not* designed for pixel art - no preview window for starters!
 
-This paragraph was supposed to be all about how I plumbed in the path finding to make the wizard actually move, but it doesn't, because I didn't.
+This paragraph was supposed to be all about how I plumbed in the path finding to make the wizard actually move, but it doesn't, because I didn't. Next week!
 
 [RPG]: http://www.subdimension.co.uk/RPG/
-[WIZGIF]: finding-a-path/wizard-animated.gif
-[WIZSHEET]: finding-a-path/wizard-spritesheet.png
+[WIZGIF]: /files/2016-06-24-finding-a-path/wizard-animated.gif
+[WIZSHEET]: /files/2016-06-24-finding-a-path/wizard-spritesheet.png
 [ASEPRITE]: http://www.aseprite.org/
 
-## New Lesson - Logo
+## New Lessons - Logo & Scratch Racing
 
 I added a new [Logo project][LOGO] to my lessons site. This one started life as a word document and I didn't have the screenshots anymore, so I had to save them out of the word doc which lost some quality. It was originally a little Year 7 filler lesson, but I quite like it and it ended up being useful with a few other groups too.
+
+[Scratch Racing][RACE] is a funky project for making a little top-down racing game. I had to re-shoot all of the screenshots to match up with Scratch 2 as I originally made this project some time ago using the old version which looks really different.
 
 I have about 3 or 4 more 'old' projects that I want to consolidate like this. Once that's done I need to write a whole bunch more for next year!
 
 [LOGO]: http://lessons.subdimension.co.uk/logo/index.html
+[RACE]: http://lessons.subdimension.co.uk/racing/index.html
 
 
 ## Jumpy
@@ -51,6 +54,6 @@ I made a cute little file icon too:
 This all took quite a bit of time and marks an important milestone: *I actually up and moved to Python 3*, which took more effort to get installed on my work machine than I care to mention. *Technically* I got paid to write a game, so I'm an *actual* game developer now. Sweet! See also how I reused my wizard sprite from above? Completely justifies the time I spent on Tuesday working on him!
 
 [JUMPY]: http://lessons.subdimension.co.uk/jumpy/
-[ICON]: finding-a-path/pyicon.gif
+[ICON]: /files/2016-06-24-finding-a-path/pyicon.gif
 
 ...
