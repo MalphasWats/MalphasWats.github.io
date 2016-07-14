@@ -1,0 +1,22 @@
+---
+layout: post
+title: Pixels
+date: 2016-07-14 04:00 -0700
+---
+
+This week I've been very busy at my job, so not much time for creative endeavours.
+
+I tried out some new characters for [RPG][RPG]:
+
+![New Characters][PXLS]
+
+They're a different style and larger than I usually do, but 16x16 was starting to get a bit too limiting. I quite like this style, although I'm not sure how well it fits with my game. I got the inspiration from a [post on PixelJoint][PJ], which just has some beautiful art in it.
+
+I definitely felt the limitation of the palette too, which is a shame because I put a lot of effort into making it. I think I need to expand it to give me more shading/detail options. I even [read some things][OGA] that suggest you should use different palettes for tiles/characters to make the characters stand out more. Makes sense, but I'm not sure. I know I have to use black outlines on my sprites so they stand out against the tiles. I think I need to experiment a little more.
+
+I'm also not at all happy about the shoulders. Practice, practice, practice.
+
+[PXLS]: /files/2016-07-14-pixels/characters.png
+[RPG]: http://www.subdimension.co.uk/RPG/
+[PJ]: http://pixeljoint.com/forum/forum_posts.asp?TID=25252
+[OGA]: http://lpc.opengameart.org/static/lpc-style-guide/styleguide.html
