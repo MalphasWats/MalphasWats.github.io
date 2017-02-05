@@ -1,0 +1,8 @@
+---
+layout: blurb
+title: 17:13:10
+date: 2017-02-05 17:13:10
+---
+All holes cut. Test fitting some switches and keycaps.
+
+![Keyboard](http://www.subdimension.co.uk/files/2017-02-05-171310/keyboard.jpg)
