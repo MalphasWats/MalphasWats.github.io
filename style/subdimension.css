@@ -263,6 +263,11 @@ a.read_more
     margin-top:6px;
 }
 
+section#projects
+{
+    overflow:auto;
+}
+
 section#projects h1
 {
 	font-size: 24pt;
@@ -276,7 +281,6 @@ section#projects h1
 section#projects ul
 {
     list-style-type: none;
-    overflow:auto;
 }
 
 section#projects ul li
