@@ -8,8 +8,6 @@ date: 2018-06-07 11:20:00
 
 I've been working on a new project. [Mage is a handheld gaming device][MAGE] based on the ATTiny85.
 
-<!--more-->
-
 My intention is to write a lot more about it over the coming weeks - I learnt A LOT whilst making this, and it's still a long way from finished. I want to make sure I document as much as I can.
 
 [MAGE]: https://github.com/MalphasWats/Mage
