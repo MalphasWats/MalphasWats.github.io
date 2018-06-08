@@ -265,7 +265,7 @@ a.read_more
 
 section#projects
 {
-    overflow:auto;
+    /*overflow:auto;*/
 }
 
 section#projects h1
