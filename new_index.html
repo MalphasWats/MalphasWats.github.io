@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+{% assign p_count = 0 %}
+{% for post in site.posts %}
+{% if p_count < 1 %}
+{% unless post.layout == 'blurb' %}
+<article class="home">
+    {% unless post.link %}
+        {% assign p_count = p_count | plus: 1 %}
+        <h1>{{post.title}}</h1>
+        
+    {% else %}
+        <h1><a href="{{post.link}}">{{post.title}}</a></h1>
+    {% endunless %}
+    {{post.excerpt}}
+    {% if post.excerpt != post.content %}
+    <a class="read_more" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+    {% endif %}
+    
+    
+    <p class="byline">Posted by Mike Watts On <a href="{{post.url}}" title="permalink">{% if post.layout == 'blurb' %}{{ post.date | date: "%a, %d %B %Y %T" }}{% else %}{{ post.date | date_to_string }}{% endif %}</a></p>
+        
+</article>
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<h2>Projects</h2>
