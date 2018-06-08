@@ -254,10 +254,44 @@ article.home img
     margin:0px 12px 12px 0px;
 }
 
-article.home a.read_more
+a.read_more
 {
     display:block;
     text-align: right;
     
     font-size: 80%;
+}
+
+section#projects h1
+{
+	font-size: 24pt;
+	
+	background-color:#f7f7f7;
+	border:1px solid #ddd;
+	margin:0px;
+	padding:12px;
+}
+
+section#projects ul
+{
+    list-style-type: none;
+}
+
+section#projects ul li
+{
+    display:inline-block;
+    width:230px;
+    border:1px solid #ddd;
+    margin-right: 6px;
+}
+
+section#projects ul li img
+{
+    max-width: 200px;
+    display: block;
+}
+
+section#projects ul li p, section#projects ul li h3
+{
+    text-align:center;
 }
