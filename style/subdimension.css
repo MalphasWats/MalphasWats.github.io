@@ -247,3 +247,9 @@ th
     margin:0px;
 }
 
+article.home img
+{
+    max-height:120px;
+    float: left;
+    margin:0px 8px 8px 0px;
+}
