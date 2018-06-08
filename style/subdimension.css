@@ -305,6 +305,11 @@ section#projects ul li img
     
 }
 
+section#projects ul li p
+{
+    font-size:80%;
+}
+
 section#projects ul li p, section#projects ul li h3
 {
     text-align:center;
