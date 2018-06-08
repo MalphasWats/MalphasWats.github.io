@@ -260,6 +260,7 @@ a.read_more
     text-align: right;
     
     font-size: 80%;
+    margin-top:6px;
 }
 
 section#projects h1
@@ -275,20 +276,29 @@ section#projects h1
 section#projects ul
 {
     list-style-type: none;
+    overflow:auto;
 }
 
 section#projects ul li
 {
-    display:inline-block;
+    float:left;
     width:230px;
+    height: 260px;
     border:1px solid #ddd;
     margin-right: 6px;
 }
 
+section#projects ul li:last-child
+{
+    margin:0px;
+}
+
 section#projects ul li img
 {
-    max-width: 200px;
+    max-height: 120px;
     display: block;
+    margin:6px auto;
+    
 }
 
 section#projects ul li p, section#projects ul li h3
