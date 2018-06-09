@@ -265,7 +265,7 @@ a.read_more
 
 section.items
 {
-    /*overflow:auto;*/
+    overflow:visible;
 }
 
 section.items h1
