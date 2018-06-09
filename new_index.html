@@ -38,7 +38,7 @@ title: Home
 {% assign p_count = p_count | plus: 1 %}
 <li class="blurb">
     <p class="byline"><a href="{{post.url}}" title="permalink">
-      {{ post.date | date: "%Y-%m-%d %H %T" }}
+      {{ post.date | date: "%Y-%m-%d %R" }}
     </a></p>
     {{post.content}}
 </li>
