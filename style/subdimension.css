@@ -312,9 +312,10 @@ section.items ul li p
     font-size:80%;
 }
 
-section.items article.blurb
+section.items li.blurb .byline
 {
     font-size:75%;
+	margin-bottom:12px;
 }
 
 section.items ul li p, section.items ul li h3
