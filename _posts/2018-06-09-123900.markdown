@@ -1,0 +1,7 @@
+---
+layout: blurb
+title: 12:39:00
+date: 2018-06-09 12:39:00
+---
+
+New home layout. Makes a bit more of the stuff I'm actually working on.
