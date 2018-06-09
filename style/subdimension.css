@@ -263,12 +263,12 @@ a.read_more
     margin-top:6px;
 }
 
-section#projects
+section.items
 {
     /*overflow:auto;*/
 }
 
-section#projects h1
+section.items h1
 {
 	font-size: 24pt;
 	
@@ -278,12 +278,12 @@ section#projects h1
 	padding:12px;
 }
 
-section#projects ul
+section.items ul
 {
     list-style-type: none;
 }
 
-section#projects ul li
+section.items ul li
 {
     float:left;
     width:230px;
@@ -292,12 +292,12 @@ section#projects ul li
     margin-right: 6px;
 }
 
-section#projects ul li:last-child
+section.items ul li:last-child
 {
     margin:0px;
 }
 
-section#projects ul li img
+section.items ul li img
 {
     max-height: 120px;
     display: block;
@@ -305,12 +305,17 @@ section#projects ul li img
     
 }
 
-section#projects ul li p
+section.items ul li p
 {
     font-size:80%;
 }
 
-section#projects ul li p, section#projects ul li h3
+section.items article.blurb
+{
+    font-size:75%;
+}
+
+section.items ul li p, section.items ul li h3
 {
     text-align:center;
 }

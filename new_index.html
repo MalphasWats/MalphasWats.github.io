@@ -9,10 +9,10 @@ title: Home
 <article class="home">
     {% unless post.link %}
         {% assign p_count = p_count | plus: 1 %}
-        <h1>{{post.title}}</h1>
+        <h1>Blog post: {{post.title}}</h1>
         
     {% else %}
-        <h1><a href="{{post.link}}">{{post.title}}</a></h1>
+        <h1>Blog post: <a href="{{post.link}}">{{post.title}}</a></h1>
     {% endunless %}
     {{post.excerpt}}
     {% if post.excerpt != post.content %}
@@ -20,14 +20,35 @@ title: Home
     {% endif %}
     
     
-    <p class="byline">Posted by Mike Watts On <a href="{{post.url}}" title="permalink">{% if post.layout == 'blurb' %}{{ post.date | date: "%a, %d %B %Y %T" }}{% else %}{{ post.date | date_to_string }}{% endif %}</a></p>
+    <p class="byline">Posted by Mike Watts On <a href="{{post.url}}" title="permalink">
+    {{ post.date | date_to_string }}</a></p>
         
 </article>
 {% endunless %}
 {% endif %}
 {% endfor %}
 
-<section id="projects">
+<section class="items">
+{% assign p_count = 0 %}
+{% for post in site.posts %}
+{% if p_count < 3 %}
+{% unless post.layout == 'post' %}
+<article class="home blurb">
+    {{post.content}}
+    
+    
+    
+    <p class="byline"><a href="{{post.url}}" title="permalink">
+      {{ post.date | date: "%a, %d %B %Y %T" }}
+    </a></p>
+        
+</article>
+{% endunless %}
+{% endif %}
+{% endfor %}
+</section>
+
+<section class="items">
 <h1>Projects</h1>
 <ul>
 <li>

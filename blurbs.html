@@ -1,0 +1,21 @@
+---
+layout: default
+title: micro blog
+---
+{% assign p_count = 0 %}
+{% for post in site.posts %}
+{% if p_count < 30 %}
+{% unless post.layout == 'post' %}
+{% assign p_count = p_count | plus: 1 %}
+<article>
+    
+    {{post.content}}
+    
+    <p class="byline">Posted by Mike Watts On <a href="{{post.url}}" title="permalink">
+      {{ post.date | date: "%a, %d %B %Y %T" }}
+    </a></p>
+        
+</article>
+{% endunless %}
+{% endif %}
+{% endfor %}
