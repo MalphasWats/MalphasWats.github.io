@@ -37,14 +37,10 @@ title: Home
 {% unless post.layout == 'post' %}
 {% assign p_count = p_count | plus: 1 %}
 <li class="blurb">
-    {{post.content}}
-    
-    
-    
     <p class="byline"><a href="{{post.url}}" title="permalink">
-      {{ post.date | date: "%a, %d %B %Y %T" }}
+      {{ post.date | date: "%Y-%m-%d %H %T" }}
     </a></p>
-        
+    {{post.content}}
 </li>
 {% endunless %}
 {% endif %}

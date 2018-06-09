@@ -265,7 +265,8 @@ a.read_more
 
 section.items
 {
-    overflow:visible;
+    overflow:hidden;
+    margin-bottom: 24px;
 }
 
 section.items h1
@@ -281,6 +282,7 @@ section.items h1
 section.items ul
 {
     list-style-type: none;
+    overflow: hidden;
 }
 
 section.items ul li
