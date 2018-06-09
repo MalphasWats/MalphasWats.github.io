@@ -29,11 +29,14 @@ title: Home
 {% endfor %}
 
 <section class="items">
+<h1>Microblog</h1>
+<ul>
 {% assign p_count = 0 %}
 {% for post in site.posts %}
 {% if p_count < 3 %}
 {% unless post.layout == 'post' %}
-<article class="home blurb">
+{% assign p_count = p_count | plus: 1 %}
+<li class="blurb">
     {{post.content}}
     
     
@@ -42,10 +45,11 @@ title: Home
       {{ post.date | date: "%a, %d %B %Y %T" }}
     </a></p>
         
-</article>
+</li>
 {% endunless %}
 {% endif %}
 {% endfor %}
+</ul>
 </section>
 
 <section class="items">
