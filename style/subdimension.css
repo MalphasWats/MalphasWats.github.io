@@ -288,8 +288,11 @@ section.items ul
 section.items ul li
 {
     float:left;
-    width:230px;
+    width:218px;
     height: 260px;
+	
+	padding:6px;
+	
     border:1px solid #ddd;
     margin-right: 6px;
 }
