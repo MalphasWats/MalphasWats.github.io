@@ -1,0 +1,8 @@
+---
+layout: blurb
+title: 10:01:42
+date: 2018-06-11 10:01:42
+---
+Designed and ordered a new board. Much smaller than the first one!
+
+![Mage.png](http://www.subdimension.co.uk/files/2018-06-11-095820/Mage.png)
