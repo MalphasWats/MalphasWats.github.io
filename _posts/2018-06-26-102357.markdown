@@ -3,6 +3,6 @@ layout: blurb
 title: 10:23:57
 date: 2018-06-26 10:23:57
 ---
-Now that the hardware is mostly 'done', I keep having ideas for games that are way too complex to actually do!
+Hardware is mostly 'done'! I keep having ideas for big, complex games :(
 
 ![DojoMaster](https://github.com/MalphasWats/DojoMaster/raw/master/concept.png)
