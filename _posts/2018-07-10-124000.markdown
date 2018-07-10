@@ -1,0 +1,7 @@
+---
+layout: blurb
+title: 12:40:00
+date: 2018-07-10 12:40:00
+---
+
+I wrote up some details about [how I use the ADC with 7 buttons](https://github.com/MalphasWats/mage-button-mapper).
