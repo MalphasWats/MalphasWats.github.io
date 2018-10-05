@@ -1,0 +1,9 @@
+---
+layout: blurb
+title: 10:36:00
+date: 2018-10-5 10:36:00
+---
+
+Tinkering with another game concept.
+
+![Spore Concept](http://www.subdimension.co.uk/files/images/Spore_concept.png)
