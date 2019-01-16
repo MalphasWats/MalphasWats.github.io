@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spike: Next-Gen Portable Gaming
+title: Spike Next-Gen Portable Gaming
 date: 2019-01-16 10:26:46
 ---
 
@@ -30,7 +30,7 @@ Most importantly: it works. I am currently using an ATMega1284p, I had a go at s
 
 I've been working on a tribute to the Alien Breed game from the Amiga as my first proper *Spike* game:
 
-<video controls>
+<video controls width="650">
     <source src="http://www.subdimension.co.uk/files/2019-01-16-spike-next-gen/spike-video.mp4"
             type="video/mp4">
 
