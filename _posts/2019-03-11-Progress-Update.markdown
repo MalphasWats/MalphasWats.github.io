@@ -38,7 +38,7 @@ As far as games go, I'm building quite the library of almost finished games. Cur
 
 
 [GLYPH]: https://github.com/MalphasWats/Glyph
-[GLPYHIMG]: http://www.subdimension.co.uk/files/2019-03-11-Progress-Update/glyph.png
+[GLYPHIMG]: http://www.subdimension.co.uk/files/2019-03-11-Progress-Update/glyph.png
 [ISPIMG]: http://www.subdimension.co.uk/files/2019-03-11-Progress-Update/isp.png
 [VPATH]: https://www.avrfreaks.net/forum/noob-question-using-i-organise-my-libraries
 [BEASTSIMG]: http://www.subdimension.co.uk/files/2019-03-11-Progress-Update/beasts.png
