@@ -6,6 +6,8 @@ date: 2019-03-11 11:54:26
 
 I'm going to try and post about what I've been doing a little more regularly again. So here's the first one of those.
 
+<!--more-->
+
 ## Glyph Handheld Game Console
 
 The [current iteration is the GLYPH][GLYPH]. In this version I've moved entirely to surface mount components, including the screen. I've also dispensed with the cartridge idea for now in order to simplify the device overall and reduce the component cost (the PCB connector was around £5, which made it the second most expensive component after the screen!). Getting rid of the OLED breakout board also allowed me to use a larger display without changing the overall size of the console.
