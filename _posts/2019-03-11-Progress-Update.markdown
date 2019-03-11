@@ -14,13 +14,13 @@ I think the *Glyph* will likely be the final name, although I do have some plans
 
 I would also like to migrate to an ARM-based MCU at some point, which was originally why I had the interchangeable cartridges on the Spike, but added more complexity to the build than I wanted to manage.
 
-![Glyph][GLYPHIMG]
+ ![Glyph][GLYPHIMG]
 
 This week I completed designing the new board and sent it off to be fabricated.
 
 ## Glyph-ISP
 
-![Glyph-isp][ISPIMG]
+ ![Glyph-isp][ISPIMG]
 
 As noted above, I want to include USB Mass Storage programming on the Glyph. I didn't want to add a bunch of components to the board before I knew what I was actually doing so I started designing a standalone programmer based on the ATMega16u4 controller. I realised creating the 3D image of it for this post that I need to move the components that are on the back onto the front and make the board a little bit bigger because it looks weird and awkward with a few capacitors sticking out the back! So that'll go back to the drawing board before I send it off to the Fab.
 
@@ -28,7 +28,7 @@ As noted above, I want to include USB Mass Storage programming on the Glyph. I d
 
 I did a huge rework of the way I structure the code in my games. [I learnt how to use VPATH in makefiles][VPATH] so I can have just 1 copy of my library for the Spike hardware. Y'know, how things *should* be done.
 
-![BattleBeasts][BEASTSIMG]
+ ![BattleBeasts][BEASTSIMG]
 
 I made a title screen for a new game concept - it's awful, but *less* awful than usual, and I was quite pleased with it. The game uses a cool trick to generate random 'beasts' to train and battle. It's a cross between Tamagotchi and Pokemon, or something. I haven't really gotten very far.
 
