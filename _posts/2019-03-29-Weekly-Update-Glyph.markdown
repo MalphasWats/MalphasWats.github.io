@@ -57,8 +57,8 @@ I want to make a better case that encloses the battery a bit better too.
 
 
 [GLYPH]: https://github.com/MalphasWats/Glyph
-[GLYPHIMG]: http://www.subdimension.co.uk/files/2019-03-28-Weekly-Update-Glyph/glyph.jpeg
-[OPENSCAD]: http://www.subdimension.co.uk/files/2019-03-28-Weekly-Update-Glyph/openscad.png
-[KICAD]: http://www.subdimension.co.uk/files/2019-03-28-Weekly-Update-Glyph/kicad.png
+[GLYPHIMG]: http://www.subdimension.co.uk/files/2019-03-29-Weekly-Update-Glyph/glyph.jpeg
+[OPENSCAD]: http://www.subdimension.co.uk/files/2019-03-29-Weekly-Update-Glyph/openscad.png
+[KICAD]: http://www.subdimension.co.uk/files/2019-03-29-Weekly-Update-Glyph/kicad.png
 [ARGON]: https://github.com/MalphasWats/Argon
 [TWIT]: https://twitter.com/MalphasWats/status/1109187979317334016
