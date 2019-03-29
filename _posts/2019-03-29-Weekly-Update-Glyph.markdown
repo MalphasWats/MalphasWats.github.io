@@ -4,11 +4,11 @@ title: Weekly Update
 date: 2019-03-29 15:33:25
 ---
 
+![Glyph][GLYPHIMG]
+
 My new boards arrived! 
 
 This week I have been mostly soldering my new [Glyph][GLYPH] console together.
-
-![Glyph][GLYPHIMG]
 
 <!--more-->
 
