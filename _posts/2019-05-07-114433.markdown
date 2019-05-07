@@ -1,0 +1,6 @@
+---
+layout: blurb
+title: 11:44:33
+date: 2019-05-07 11:44:33
+---
+TFW: Struggling to understand how to make API calls to do a thing. Search everywhere for a code example. Find a full implementation of the thing you're trying to do that you wrote.
