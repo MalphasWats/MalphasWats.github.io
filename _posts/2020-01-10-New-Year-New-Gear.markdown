@@ -4,9 +4,11 @@ title: New Year New Gear
 date: 2020-01-10 17:08:00
 ---
 
+![PCBWAY][PCBWAYLOGO]
+
 Just before Christmas, I had a kind offer from the folks at [PCBWay][PCBWAY] to work on a small maker project. I saw this as a great opportunity to experiment with some new tech and designed a new board around the Microchip SAMD21G microcontroller.
 
-![PCBWAY][PCBWAYLOGO]
+<!--more-->
 
 I've always wanted to build a 'Tamagotchi'-type device, so I designed a simple development board the size of a standard playing card with an 8x8 LED matrix and some capacitative-touch buttons. I knocked my design up in KiCAD in a couple of hours:
 
