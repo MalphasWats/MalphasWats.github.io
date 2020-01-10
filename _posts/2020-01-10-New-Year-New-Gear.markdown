@@ -20,7 +20,9 @@ Not long afterwards I got these beauties in the post:
 
 ![PCBWay PCBs][BOARDS]
 
-I'd also asked for a solder paste stencil. I was a little bit lazy and just added a comment for it to be made the same size as the board and the guys at PCBWay did it for me which was really great.
+I'd also asked for a solder paste stencil. I was a little bit lazy and just added a comment for it to be made the same size as the board and the guys at PCBWay did it for me which was really great. The boards were really good quality - I poked at them with my multimeter to check continuity and everything was fine.
+
+The black soldermask looks so good on bare PCBs.
 
 Using some old PCBs from another project, I taped the stencil down to my workbench:
 
