@@ -40,7 +40,7 @@ After blasting it with my hot air gun, I think it looks pretty good:
 
 I can power the board via the USB connector whilst I'm developing and I can add the RGBs to it later once I've got the matrix working.
 
-My main goal with this board is to build up my Arm MCU development toolchain. Previously I made a [simple breakout board for the SAMD10][HAWK]. I managed to get some simple blink code working on that so hopefully getting this board up and running won't be too difficult!
+My main goal with this board is to build up my Arm MCU development toolchain so getting some code up and running is the next step!
 
 All of the KiCAD files are available in my [BattleBeasts Repository][BB] - BattleBeasts is supposed to be the name of the Tamigotchi-type game I'm making!
 
@@ -51,5 +51,4 @@ All of the KiCAD files are available in my [BattleBeasts Repository][BB] - Battl
 [STENCIL]: http://www.subdimension.co.uk/files/2020-01-10-New-Year-New-Gear/stencil.jpeg
 [PASTE]: http://www.subdimension.co.uk/files/2020-01-10-New-Year-New-Gear/paste.jpeg
 [FINISHED]: http://www.subdimension.co.uk/files/2020-01-10-New-Year-New-Gear/finished.jpeg
-[HAWK]: https://github.com/MalphasWats/hawk
 [BB]: https://github.com/MalphasWats/BattleBeasts
