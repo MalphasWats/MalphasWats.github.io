@@ -2,46 +2,49 @@
 layout: default
 title: Home
 ---
-{% assign p_count = 0 %}
-{% for post in site.posts %}
-{% if p_count < 1 %}
-{% unless post.layout == 'blurb' %}
+{%- assign p_count = 0 -%}
+{%- for post in site.posts -%}
+{%- if p_count < 1 -%}
+{%- unless post.layout == 'blurb' -%}
 <article class="home">
-    {% unless post.link %}
-        {% assign p_count = p_count | plus: 1 %}
+    {%- unless post.link -%}
+        {%- assign p_count = p_count | plus: 1 -%}
         <h1>Blog: {{post.title}}</h1>
         
-    {% else %}
+    {%- else -%}
         <h1>Blog: <a href="{{post.link}}">{{post.title}}</a></h1>
-    {% endunless %}
+    {%- endunless -%}
     {{post.excerpt}}
-    {% if post.excerpt != post.content %}
+    {%- if post.excerpt != post.content -%}
     <a class="read_more" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
-    {% endif %}
+    {%- endif -%}
     
     
     <p class="byline">Posted by Mike Watts On <a href="{{post.url}}" title="permalink">
     {{ post.date | date_to_string }}</a></p>
         
-</article>{% endunless %}{% endif %}{% endfor %}
+</article>
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
 
 <section class="items">
 <h1>Microblog</h1>
 <ul>
-{% assign p_count = 0 %}
-{% for post in site.posts %}
-{% if p_count < 3 %}
-{% unless post.layout == 'post' %}
-{% assign p_count = p_count | plus: 1 %}
+{%- assign p_count = 0 -%}
+{%- for post in site.posts -%}
+{%- if p_count < 3 -%}
+{%- unless post.layout == 'post' -%}
+{%- assign p_count = p_count | plus: 1 -%}
 <li class="blurb">
     <p class="byline"><a href="{{post.url}}" title="permalink">
       {{ post.date | date: "%Y-%m-%d %R" }}
     </a></p>
     {{post.content}}
 </li>
-{% endunless %}
-{% endif %}
-{% endfor %}
+{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
 </ul>
 </section>
 
